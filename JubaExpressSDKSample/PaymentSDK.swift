@@ -23,5 +23,6 @@ public class PaymentSDK {
         let customerInfo = JESSDKCustomerInfo(name: customerName, CIF: "<Your CIF>", mobile: "<Customer registered mobile mumber>", email: "<Customer registered email address>", nationality: "<Customer nationality>", DateOfBirth:"<Customer Dob format DD/MM/YYYY>",  PlaceOfBirth: "<Customer place of birth>", Gender: "0", Document: customerDocument)
         
         return JESDKConfiguration(SubscriptionKey: "<JubaExpress SubscriptionKey>", PartnerKey: "<JubaExpress PartnerKey>", referenceid: referenceId, enviroment: .UAT, customerInfo: customerInfo)
+        
     }
 }
