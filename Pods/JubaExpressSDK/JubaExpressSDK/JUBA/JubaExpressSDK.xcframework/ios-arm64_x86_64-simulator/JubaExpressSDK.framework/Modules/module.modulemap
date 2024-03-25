@@ -1,0 +1,11 @@
+framework module JubaExpressSDK {
+  umbrella header "JubaExpressSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module JubaExpressSDK.Swift {
+  header "JubaExpressSDK-Swift.h"
+  requires objc
+}

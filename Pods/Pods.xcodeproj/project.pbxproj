@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CCC17503DEACD73625EF26D7DE3CA4C8 /* JubaExpressSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AACCD6F3700823F88C2CE0AE2519B731 /* Build configuration list for PBXAggregateTarget "JubaExpressSDK" */;
+			buildPhases = (
+				C74F19C6E6D48A278EFB358D0BB2AEE5 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = JubaExpressSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		581C8F8D261CE7F1AEBF7D093C059172 /* Pods-JubaExpressSDKSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC069D7E1701C472DAEF31A9B0128F5 /* Pods-JubaExpressSDKSample-dummy.m */; };
+		81FBF8B1B27A573B14AFCB5B36E7E6AC /* Pods-JubaExpressSDKSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9418F6F5B798487C6940E38A0016688 /* Pods-JubaExpressSDKSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8625A15C8A8D62603369C83CF7335FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E7630300D555DCCEC0C86DED56152A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC17503DEACD73625EF26D7DE3CA4C8;
+			remoteInfo = JubaExpressSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		405E9759051DD6E025F747C1BD9773A8 /* Pods-JubaExpressSDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JubaExpressSDKSample.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BE5657CE7F5F93159FA7656ED8C2D51 /* Pods-JubaExpressSDKSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JubaExpressSDKSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BEEB9A85E94A66A11486DD5C3F96D6B /* Pods-JubaExpressSDKSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JubaExpressSDKSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		91C65E21ACA66EC920ED3C6E67496F89 /* JubaExpressSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = JubaExpressSDK.xcframework; path = JubaExpressSDK/JUBA/JubaExpressSDK.xcframework; sourceTree = "<group>"; };
+		9BC069D7E1701C472DAEF31A9B0128F5 /* Pods-JubaExpressSDKSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JubaExpressSDKSample-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04B4C27FB3FF763CF6D597304C2748B /* Pods-JubaExpressSDKSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JubaExpressSDKSample-frameworks.sh"; sourceTree = "<group>"; };
+		B9418F6F5B798487C6940E38A0016688 /* Pods-JubaExpressSDKSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JubaExpressSDKSample-umbrella.h"; sourceTree = "<group>"; };
+		BB3D4660F0A5B96289B6BDFFBBCC50F3 /* JubaExpressSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JubaExpressSDK.release.xcconfig; sourceTree = "<group>"; };
+		BE771A893E9C6CE29FA36043DC112627 /* JubaExpressSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JubaExpressSDK.debug.xcconfig; sourceTree = "<group>"; };
+		C1DD49903835B010667AC06F6DE2E0DD /* Pods-JubaExpressSDKSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JubaExpressSDKSample.modulemap"; sourceTree = "<group>"; };
+		C261236A2725F88B1489FA1AA6EC9FBB /* Pods-JubaExpressSDKSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JubaExpressSDKSample-Info.plist"; sourceTree = "<group>"; };
+		D3197CBB406153A07349C7B65E8E8EC2 /* Pods-JubaExpressSDKSample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JubaExpressSDKSample"; path = Pods_JubaExpressSDKSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41F84EDCB5E9444DAC4EA3F586533A1 /* JubaExpressSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JubaExpressSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		E8BEC5ADCB6564CE3E50E6ABA7F585A9 /* Pods-JubaExpressSDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JubaExpressSDKSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E1F67DC76F98892BB89A801D38117E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8625A15C8A8D62603369C83CF7335FD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F43B0245142D784605675DF153100E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E13AFF7CC9E98ED2E8CA9EB708660F7A /* Pods-JubaExpressSDKSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FA9A9B04CB61F3CBFFF8680188BC2FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C65E21ACA66EC920ED3C6E67496F89 /* JubaExpressSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73739F9D384991991BE02C377F6105C3 /* JubaExpressSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9A9B04CB61F3CBFFF8680188BC2FB /* Frameworks */,
+				A76E11E1218B90E570F10CB06CA56DC8 /* Support Files */,
+			);
+			name = JubaExpressSDK;
+			path = JubaExpressSDK;
+			sourceTree = "<group>";
+		};
+		A76E11E1218B90E570F10CB06CA56DC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41F84EDCB5E9444DAC4EA3F586533A1 /* JubaExpressSDK-xcframeworks.sh */,
+				BE771A893E9C6CE29FA36043DC112627 /* JubaExpressSDK.debug.xcconfig */,
+				BB3D4660F0A5B96289B6BDFFBBCC50F3 /* JubaExpressSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JubaExpressSDK";
+			sourceTree = "<group>";
+		};
+		A8437896F26405BB1E8DE28D9691F8BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73739F9D384991991BE02C377F6105C3 /* JubaExpressSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A8437896F26405BB1E8DE28D9691F8BA /* Pods */,
+				F9E5EFD170A8F1A23C9F530CC62AD8E6 /* Products */,
+				18F43B0245142D784605675DF153100E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E13AFF7CC9E98ED2E8CA9EB708660F7A /* Pods-JubaExpressSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD49903835B010667AC06F6DE2E0DD /* Pods-JubaExpressSDKSample.modulemap */,
+				7BE5657CE7F5F93159FA7656ED8C2D51 /* Pods-JubaExpressSDKSample-acknowledgements.markdown */,
+				7BEEB9A85E94A66A11486DD5C3F96D6B /* Pods-JubaExpressSDKSample-acknowledgements.plist */,
+				9BC069D7E1701C472DAEF31A9B0128F5 /* Pods-JubaExpressSDKSample-dummy.m */,
+				A04B4C27FB3FF763CF6D597304C2748B /* Pods-JubaExpressSDKSample-frameworks.sh */,
+				C261236A2725F88B1489FA1AA6EC9FBB /* Pods-JubaExpressSDKSample-Info.plist */,
+				B9418F6F5B798487C6940E38A0016688 /* Pods-JubaExpressSDKSample-umbrella.h */,
+				405E9759051DD6E025F747C1BD9773A8 /* Pods-JubaExpressSDKSample.debug.xcconfig */,
+				E8BEC5ADCB6564CE3E50E6ABA7F585A9 /* Pods-JubaExpressSDKSample.release.xcconfig */,
+			);
+			name = "Pods-JubaExpressSDKSample";
+			path = "Target Support Files/Pods-JubaExpressSDKSample";
+			sourceTree = "<group>";
+		};
+		F9E5EFD170A8F1A23C9F530CC62AD8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3197CBB406153A07349C7B65E8E8EC2 /* Pods-JubaExpressSDKSample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DB21585481301C97C65FF89993EADBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FBF8B1B27A573B14AFCB5B36E7E6AC /* Pods-JubaExpressSDKSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53C62DFBFEC8E356EE3521E8FBC0D12F /* Pods-JubaExpressSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F536149E2DFC62A14D522FBAF1176A /* Build configuration list for PBXNativeTarget "Pods-JubaExpressSDKSample" */;
+			buildPhases = (
+				2DB21585481301C97C65FF89993EADBD /* Headers */,
+				C1FAA32CCE1514CF9D299870F2C9CAB9 /* Sources */,
+				30E1F67DC76F98892BB89A801D38117E /* Frameworks */,
+				7F638E5F8FB020593C15B8FECA93F6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10FD50B6872AC0D52705AF00760846A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-JubaExpressSDKSample";
+			productName = Pods_JubaExpressSDKSample;
+			productReference = D3197CBB406153A07349C7B65E8E8EC2 /* Pods-JubaExpressSDKSample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F9E5EFD170A8F1A23C9F530CC62AD8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC17503DEACD73625EF26D7DE3CA4C8 /* JubaExpressSDK */,
+				53C62DFBFEC8E356EE3521E8FBC0D12F /* Pods-JubaExpressSDKSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F638E5F8FB020593C15B8FECA93F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C74F19C6E6D48A278EFB358D0BB2AEE5 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/JubaExpressSDK/JubaExpressSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/JubaExpressSDK/JubaExpressSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/JubaExpressSDK/JubaExpressSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1FAA32CCE1514CF9D299870F2C9CAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581C8F8D261CE7F1AEBF7D093C059172 /* Pods-JubaExpressSDKSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10FD50B6872AC0D52705AF00760846A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JubaExpressSDK;
+			target = CCC17503DEACD73625EF26D7DE3CA4C8 /* JubaExpressSDK */;
+			targetProxy = E0E7630300D555DCCEC0C86DED56152A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E42EC9862E616FD6E288C3C7E04E2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3D4660F0A5B96289B6BDFFBBCC50F3 /* JubaExpressSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		73085BC9382212FCB169C65D51CB854F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BEC5ADCB6564CE3E50E6ABA7F585A9 /* Pods-JubaExpressSDKSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78E05313B488C736FAAD7E68B1B874A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE771A893E9C6CE29FA36043DC112627 /* JubaExpressSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EDB4E1D1F4BDEBF10520549EE018F4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405E9759051DD6E025F747C1BD9773A8 /* Pods-JubaExpressSDKSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACCD6F3700823F88C2CE0AE2519B731 /* Build configuration list for PBXAggregateTarget "JubaExpressSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E05313B488C736FAAD7E68B1B874A3 /* Debug */,
+				1E42EC9862E616FD6E288C3C7E04E2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F536149E2DFC62A14D522FBAF1176A /* Build configuration list for PBXNativeTarget "Pods-JubaExpressSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB4E1D1F4BDEBF10520549EE018F4E4 /* Debug */,
+				73085BC9382212FCB169C65D51CB854F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

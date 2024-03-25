@@ -1,0 +1,118 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name JubaExpressSDK
+import AVKit
+import Accelerate
+import Combine
+import CommonCrypto
+import CoreGraphics
+import CoreImage
+import CryptoSwift
+import DeveloperToolsSupport
+import Foundation
+import ImageIO
+@_exported import JubaExpressSDK
+import MobileCoreServices
+import PDFKit
+import QuartzCore
+import Swift
+import SwiftUI
+import UIKit.UIGestureRecognizerSubclass
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class JESDKConfiguration : ObjectiveC.NSObject {
+  public init(SubscriptionKey: Swift.String, PartnerKey: Swift.String, referenceid: Swift.String? = nil, enviroment: JubaExpressSDK.JESDKBuildEnvironment, customerInfo: JubaExpressSDK.JESSDKCustomerInfo)
+  @objc deinit
+}
+public enum JESDKBuildEnvironment : Swift.String {
+  case Live
+  case UAT
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public class JESSDKCustomerDocument : ObjectiveC.NSObject {
+  public init(DocumentType: Swift.String, DocumentNumber: Swift.String, DocumentIssueDate: Swift.String, DocumentExpiryDate: Swift.String, DocumentIssuingCountry: Swift.String)
+  @objc deinit
+}
+@objc public class JESSDKCustomerName : ObjectiveC.NSObject {
+  public init(FirstName: Swift.String, MiddleName: Swift.String, LastName: Swift.String)
+  @objc deinit
+}
+@objc public class JESSDKCustomerInfo : ObjectiveC.NSObject {
+  public init(name: JubaExpressSDK.JESSDKCustomerName, CIF: Swift.String, mobile: Swift.String, email: Swift.String, nationality: Swift.String, DateOfBirth: Swift.String, PlaceOfBirth: Swift.String, Gender: Swift.String, Document: JubaExpressSDK.JESSDKCustomerDocument)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class JESDK {
+  public var delegate: (any JubaExpressSDK.JESDKDelegate)?
+  public static func initSDK(configuration: JubaExpressSDK.JESDKConfiguration, root: UIKit.UIViewController)
+  @objc deinit
+}
+extension JubaExpressSDK.JESDK {
+  public class func sharedInstance() -> JubaExpressSDK.JESDK?
+}
+extension JubaExpressSDK.JESDK {
+  @objc dynamic public class func setTopHeadingColor(_ color: UIKit.UIColor)
+  @objc dynamic public class func setPrimaryColor(_ color: UIKit.UIColor)
+  @objc dynamic public class func setTertionaryColor(_ color: UIKit.UIColor)
+  @objc dynamic public class func setSecondaryColor(_ color: UIKit.UIColor)
+  @objc dynamic public class func setBackgroundColor(_ color: UIKit.UIColor)
+  @objc dynamic public class func setButtonBackgroundColor(_ color: UIKit.UIColor)
+  @objc dynamic public class func setButtonTextColor(_ color: UIKit.UIColor)
+}
+public protocol JESDKDelegate {
+  func JESDKSecretKey(payment: JubaExpressSDK.Payment)
+}
+public struct Payment {
+  public var secretkey: Swift.String?
+  public var referenceId: Swift.String?
+}
+@_hasMissingDesignatedInitializers public class JESDKSharedInstance {
+  public static var shared: JubaExpressSDK.JESDKSharedInstance
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class FadeTransition : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
+  @_Concurrency.MainActor(unsafe) @objc open func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
+  @_Concurrency.MainActor(unsafe) @objc open func animateTransition(using transitionContext: any UIKit.UIViewControllerContextTransitioning)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class CustomTransitionViewController : UIKit.UIViewController, UIKit.UIViewControllerTransitioningDelegate {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var modalPresentationStyle: UIKit.UIModalPresentationStyle {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc public func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @_Concurrency.MainActor(unsafe) @objc public func animationController(forDismissed dismissed: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+infix operator |> : AdditionPrecedence
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) open class TransitionButton : UIKit.UIButton, UIKit.UIViewControllerTransitioningDelegate, QuartzCore.CAAnimationDelegate {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var spinnerColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var disabledBackgroundColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var cornerRadius: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) open func startAnimation()
+  @objc deinit
+}
+extension JubaExpressSDK.JESDKBuildEnvironment : Swift.Equatable {}
+extension JubaExpressSDK.JESDKBuildEnvironment : Swift.Hashable {}
+extension JubaExpressSDK.JESDKBuildEnvironment : Swift.RawRepresentable {}
