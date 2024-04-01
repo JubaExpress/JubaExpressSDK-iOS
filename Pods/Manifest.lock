@@ -1,16 +1,20 @@
 PODS:
+  - IQKeyboardManagerSwift (7.0.2)
   - JubaExpressSDK (1.0.0)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
   - JubaExpressSDK
 
 SPEC REPOS:
   trunk:
+    - IQKeyboardManagerSwift
     - JubaExpressSDK
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: d338c11a896e9f29603443700c4567e32f830c22
   JubaExpressSDK: bf8f0de7b888c3ef2b940173e4dfc65c0be0110b
 
-PODFILE CHECKSUM: 9b1419de1baf36d8b57a1c1ee5fd35115cf9ef18
+PODFILE CHECKSUM: c65e043cb7032386ae533ddbbcbea5c3e2d02148
 
 COCOAPODS: 1.11.3

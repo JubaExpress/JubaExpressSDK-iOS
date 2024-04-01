@@ -380,6 +380,7 @@
 				DEVELOPMENT_TEAM = YS69J99335;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JubaExpressSDKSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Juba Express Demo";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -411,6 +412,7 @@
 				DEVELOPMENT_TEAM = YS69J99335;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JubaExpressSDKSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Juba Express Demo";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

@@ -7,4 +7,5 @@ target 'JubaExpressSDKSample' do
 
   # Pods for JubaExpressSDKSample
 	pod 'JubaExpressSDK'
+  pod 'IQKeyboardManagerSwift'
 end
