@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UJitTIXyy8+I6hKSdQnhWSaaatI=
+		q/xSMUEBWHJpcw6Vymyth9ZsBSg=
 		</data>
 		<key>JESDKBeneficiary.storyboardc/Info.plist</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		CF74Y4eMoU6FlNxSPGQoHUgPfuM=
+		y/LslEIonehxGeiYxGV9A9rSbzM=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -262,11 +262,11 @@
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZGbFOxCFizk4eDlSooYmoBjQOo8=
+		ZFvaZnCPTKFsPRnqUOVF5FvVdko=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		CF74Y4eMoU6FlNxSPGQoHUgPfuM=
+		y/LslEIonehxGeiYxGV9A9rSbzM=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -282,7 +282,7 @@
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IzFVS3tEPYodX6nh2Zjj4rB2ch0=
+		vjo3yY2b6zgJtLwfOCR2uqsLnN8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -732,7 +732,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hyyhjr9HZTNZxDziU9Yo6VIrJ9xlt5Kv7+91vVf5J/c=
+			qmGvQDK5pajPoPBzlzqW+Yxwew2vMfqQl9k5RW4A5Pw=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -760,14 +760,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWuUy/M7jLzhTv4xA1oz5ipc4xs6tSqafOnegWfHjIc=
+			7j+DUP5S6Sgut271Jn42gEtzEikTziKlBjoe//bNl5s=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hyyhjr9HZTNZxDziU9Yo6VIrJ9xlt5Kv7+91vVf5J/c=
+			qmGvQDK5pajPoPBzlzqW+Yxwew2vMfqQl9k5RW4A5Pw=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -795,7 +795,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s4HJbNpOQ3ViVP9e40gJMRVWZy5fbuZtVWPHKFulOu0=
+			wiOa1OVRFZIb8oxZ0k8JjJXfrQwQ8VaIIsTKmgbOO78=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

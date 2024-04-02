@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5Pbllc+PCPq1co9VpCnWzg3L0B4=
+		+YFwMrUA32BpHo3m/UFy59NuHcY=
 		</data>
 		<key>JESDKBeneficiary.storyboardc/Info.plist</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ssw+Dbcu603516ZIUL7Y1DlkBbg=
+		Ej65rASq4l2dPN98sDDQQzmsbI4=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yaU+4Vnx7zjv3IKRXiKReIy/6m4=
+		dMqV3J/ZqxtvMLhEgFO7YGfR8Qc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -712,7 +712,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Eb3wZPz0fhHCcJQ69lcP4aB8eo8yPR66NgZ0FjW3xtE=
+			2SkoNruWvjAXIyJKlNeBKo9XNniFui2pgTOXk6GyGio=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -740,7 +740,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vyWcxjUtFHz7EPt5xcOfzNawYVuVMzNiWAwftTgEphk=
+			htQCCSPc0rclArFjambXmujk8KNxQbRkqsjKw7rv5kI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

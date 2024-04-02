@@ -11,12 +11,11 @@ public struct DefaultTheme {
     
     public struct Colors{
       
-        public static let premierGreenColor : UIColor = UIColor.init(hex: "#84C241")
-        public static let white : UIColor = UIColor.init(hex: "#FFFFFF")
-        public static let black : UIColor = UIColor.init(hex: "#000000")
-        public static let premierBlueColor: UIColor = UIColor.init(hex: "#002F63")
+        public static let primary : UIColor = UIColor.init(hex: "#4f9ddc")
+        public static let secondory: UIColor = UIColor.init(hex: "#4f9ddc")
+        public static let tertiary : UIColor = UIColor.init(hex: "#FFFFFF")
         public static let filedBackgroundColor  = #colorLiteral(red: 0.9411764706, green: 0.9411764706, blue: 0.9411764706, alpha: 1)
-        public static var JESDKTopHeadingColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        public static var TopHeadingColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     }
 }
 
