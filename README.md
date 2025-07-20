@@ -105,7 +105,8 @@ After creating the necessary objects for customer document, customer name, and c
 
 
 ```bash
-let configuration = JESDKConfiguration(SubscriptionKey: "<SubscriptionKey>",
+let configuration = JESDKConfiguration(BaseURL: "<BaseURL>",
+  SubscriptionKey: "<SubscriptionKey>",
   PartnerKey: "<PartnerKey>",
   referenceid: "<referenceid>",
   enviroment: "<enviroment>",
