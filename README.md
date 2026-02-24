@@ -21,7 +21,16 @@ To integrate JubaExpress SDK into your iOS project, Add the following line to yo
 ```bash
   pod 'JubaExpressSDK' 
 ```
-    
+## SDK Dependencies 
+
+After installing the pod, you also need to add these Swift packages to your project.
+
+```bash
+  CryptoSwift : https://github.com/krzyzanowskim/CryptoSwift.git
+  Localize-Swift : https://github.com/marmelroy/Localize-Swift.git
+  Zendesk : https://github.com/zendesk/sdk_messaging_ios/
+```
+  
 ## Import SDK
 
 Import the JubaExpressSDK in the ViewController where you want to initialize it:
@@ -145,7 +154,7 @@ ViewController: JESDKDelegate {
 Upon successful payment you will get `ReferenceId` from your payment partner ,  to view transaction receipt  Via JubaExpressSDK  initialize the SDK by calling:
 
 ```bash
-let configuration = JESDKConfiguration(subscriptionKey:
+let configuration = JESDKConfiguration(BaseURL: "<Your_Url>",subscriptionKey:
   "<Your_Subscription_Key>", 
   partnerKey: "<Your_Partner_Key>", 
   referenceID: "<Your_Reference_ID>",
