@@ -29,6 +29,8 @@ After installing the pod, you also need to add these Swift packages to your proj
   CryptoSwift : https://github.com/krzyzanowskim/CryptoSwift.git
   Localize-Swift : https://github.com/marmelroy/Localize-Swift.git
   Zendesk : https://github.com/zendesk/sdk_messaging_ios/
+  SocureDocV : https://github.com/socure-inc/socure-docv-sdk-ios
+  SigmaDevice : https://github.com/socure-inc/socure-sigmadevice-sdk-ios
 ```
   
 ## Import SDK
