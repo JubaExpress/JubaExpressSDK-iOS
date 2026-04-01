@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		EezL2VuUkzUXCl4GBdsfh6bgZUU=
+		g1peeftc2wlUMAf0pCQZKCW2Kuo=
 		</data>
 		<key>BeneficiaryListTableViewCell.nib</key>
 		<data>
-		KgsFfP/vyxpUEJLKyflvF8C330E=
+		DXoVgBLz6+WbdCQACKE9NPiJWhQ=
 		</data>
 		<key>Headers/JubaExpressSDK-Swift.h</key>
 		<data>
-		ZWUDWUaA1r3tnN+xXfotu5J9Z0g=
+		eLUxSXWc+3gYsS7Ev/lo82x0hiw=
 		</data>
 		<key>Headers/JubaExpressSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		q/xSMUEBWHJpcw6Vymyth9ZsBSg=
+		WYTu7d+wSGTK7+mirvrmKaIzEE8=
 		</data>
 		<key>JESDKBeneficiary.storyboardc/Info.plist</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>JESDKBeneficiary.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		oeXk7idu40aUJdBoZAGeU12jqQY=
+		B8V2HaFgTvXKu7WXjOdkxihbXho=
 		</data>
 		<key>JESDKBeneficiary.storyboardc/aOk-RA-R2j-view-Vyt-QU-flo.nib</key>
 		<data>
-		k2LbwYrQaM5UnqG0lITt1QSLyvk=
+		7PqBS87Cr9H/L9S3BHZ6+wL8TyI=
 		</data>
 		<key>JESDKBottomSheet.storyboardc/Info.plist</key>
 		<data>
@@ -58,15 +58,15 @@
 		</data>
 		<key>JESDKBottomSheetItemTableViewCell.nib</key>
 		<data>
-		ilnssRTe/6Zw/hHxMbPiA91OE84=
+		v2eHuvO4iXYlSjuIU3DDw3aS5FA=
 		</data>
 		<key>JESDKCurrencyRatesCollectionViewCell.nib</key>
 		<data>
-		Ho7Yo7bTCVT4dV0ICnIEkWic2EI=
+		A7HL4KnUbgzAEIFcF9M65025BsM=
 		</data>
 		<key>JESDKCurrencyRatesView.nib</key>
 		<data>
-		KwllBllXz/QUkGZWUTBGp1yrvBE=
+		wzsiDlGconCa67GGMG7jA/R5GHw=
 		</data>
 		<key>JESDKDashboard.storyboardc/Info.plist</key>
 		<data>
@@ -78,19 +78,19 @@
 		</data>
 		<key>JESDKDashboard.storyboardc/UINavigationController-dVZ-Ax-3GG.nib</key>
 		<data>
-		k2Xolr263A7viqR68Pkxa24imKA=
+		8iCMclontBtAvf2DMEqrFj4Y/1M=
 		</data>
 		<key>JESDKDashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		pl0NvbpNIwcRjVLp5qZ8TNTMhfY=
+		uE2nFaRhoZEaWoVJVbwiXY+KlOU=
 		</data>
 		<key>JESDKDashboardBeneficiaryCollectionViewCell.nib</key>
 		<data>
-		lsszsuB7TGCReA5GNZ37MetFxDw=
+		wZk+Ou7aWT6lfD1jDn9tFJCbgms=
 		</data>
 		<key>JESDKDashboardBeneficiaryView.nib</key>
 		<data>
-		oEeffzW1BQTGBCPgX95KD/01x4w=
+		hsgTFHW0PqW0mfbCDWGeeFQxGhc=
 		</data>
 		<key>JESDKDateFilterView.nib</key>
 		<data>
@@ -98,19 +98,19 @@
 		</data>
 		<key>JESDKDatePickerTableViewCell.nib</key>
 		<data>
-		zlJnvO1zlJDCPBCYwzD3yC+s3U0=
+		AI4gKWhLns6Rua0sCjpsOID73W4=
 		</data>
 		<key>JESDKDepositView.nib</key>
 		<data>
-		zjWBp+gGuuL/iGDvyAyZtm0TnYs=
+		2BEEV8BRREZ038b0oxURLn+3IlE=
 		</data>
 		<key>JESDKDropDownTableViewCell.nib</key>
 		<data>
-		PGexSXW6nReHaAbh419ak8MUgUo=
+		UrjtOBaJy3hTCVNUvzguF5+nXmg=
 		</data>
 		<key>JESDKEditTextTableViewCell.nib</key>
 		<data>
-		F3dj6RGtuPjSZQhd+TFRD7MGrQc=
+		bcl9wXW+HpOgZ7AypopWDDJt3zY=
 		</data>
 		<key>JESDKExchangeRateView.nib</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>JESDKGetDetailsTableViewCell.nib</key>
 		<data>
-		UVv2QoBBcIgTlXaitWJIvOF8UBI=
+		0H6SQShQ3DDMuE24hr7N/x7uJU8=
 		</data>
 		<key>JESDKIconView.nib</key>
 		<data>
@@ -142,11 +142,11 @@
 		</data>
 		<key>JESDKPromotionsView.nib</key>
 		<data>
-		+N+hq+HYEdGzB+vBIb7IL+T8iL0=
+		BJ3C5ZD/YlOPIaE4CjupRtjPL68=
 		</data>
 		<key>JESDKRTCustomAlert.nib</key>
 		<data>
-		viETm9lTNxb/puFShAuPDRR85gE=
+		CuGZAyRfBzkE2qniJXh/POWumi0=
 		</data>
 		<key>JESDKRTCustomLoader.nib</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>JESDKResutlsTableViewCell.nib</key>
 		<data>
-		Nsm4ZjefnQB1z1yY5D//cKyqAVg=
+		MUqaH6FC6UXdEUTglRDaBcegoRU=
 		</data>
 		<key>JESDKReview.storyboardc/Info.plist</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>JESDKReview.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		9AAyREnGbe9NVLE3oLoioWzfZ+U=
+		TbKx9tbCVqfl7tElDVtje3Wu3x8=
 		</data>
 		<key>JESDKSearchView.nib</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>JESDKSelectedCountryView.nib</key>
 		<data>
-		gD2uKcx8k+5HR/brJdkbDih2JCo=
+		PNcIvLsQuAZpYJOLlpuYVt/X7Ls=
 		</data>
 		<key>JESDKSelectionView.nib</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>JESDKTextFiledView.nib</key>
 		<data>
-		uwmCRLDuz2Qjl+7nHGDX4ncNDmg=
+		Ovf/Z2Nd7Oh43fTcz2ns33HXK04=
 		</data>
 		<key>JESDKTransactionReview.nib</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>JESDKTransactions.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		bHsL2Lo7yFZFnP94bAwd2ipqRiw=
+		8CZN038xCn8MhKP6jhZSkQ41rys=
 		</data>
 		<key>JESDKTransactions.storyboardc/jKC-tu-DDS-view-NIw-jq-Mky.nib</key>
 		<data>
@@ -222,71 +222,83 @@
 		</data>
 		<key>JESDKTransactions.storyboardc/wgs-zA-gb6-view-WVy-6S-9fg.nib</key>
 		<data>
-		yYyvsqVDuuPDlN2gPTDDEgIjyHI=
+		yNFhB/jKn/5ErovrRLGnyOmgD3U=
 		</data>
 		<key>JESDKTransactionsView.nib</key>
 		<data>
-		SUMe+lcrLGnKn1lyJUnQOyJkvO4=
+		6uZg6wlSu3ZIwffc8fYZSDjK80Y=
 		</data>
 		<key>JESDKTransfer.storyboardc/Info.plist</key>
 		<data>
-		G5Tyiz9vg4J4z90C7o2/dseV5AQ=
+		5vUcKhc2+qaC8YvzMHKBTFlS53s=
+		</data>
+		<key>JESDKTransfer.storyboardc/JESDKTermsVC.nib</key>
+		<data>
+		RrzxvnB4JIbU0YDCYkbtJ0MW0N8=
 		</data>
 		<key>JESDKTransfer.storyboardc/JESDKTransferViewController.nib</key>
 		<data>
 		QFqyrdJxwmma6i+bZ0kpZ9J+UpQ=
 		</data>
+		<key>JESDKTransfer.storyboardc/RyM-IH-6fJ-view-vQQ-8F-38o.nib</key>
+		<data>
+		f05xwc4fMXSrL6cHR4IMWEKBPGI=
+		</data>
 		<key>JESDKTransfer.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		GBvM3Z136AcN1ndBcianmMwFnwo=
+		U2VS/lXxqR7kOv71dY2mCC1ewQQ=
 		</data>
 		<key>JESSDKPromotionsCollectionViewCell.nib</key>
 		<data>
-		sawhfVf6XAlzPRxieYbJo6PkdWk=
+		6ELrTiEKQaLhJSlf0dIrtqy/VPU=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		y/LslEIonehxGeiYxGV9A9rSbzM=
+		naRzmk8F8LecXRXZVwTGbZH/XAE=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kbIWAtqn6LSY0xm9SWXYKpN+Fqo=
+		N7S/8KNDmmGYk2/REoUXx19jSRU=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		aiUrZasT/OjLkw4wQO2jXG1hyUE=
+		/P8zgqBe/weI9CeCwdesz4Ygf0g=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kbIWAtqn6LSY0xm9SWXYKpN+Fqo=
+		N7S/8KNDmmGYk2/REoUXx19jSRU=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZFvaZnCPTKFsPRnqUOVF5FvVdko=
+		5A56yzi7y1Qe2hhwdS8RvXoR8OM=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		y/LslEIonehxGeiYxGV9A9rSbzM=
+		naRzmk8F8LecXRXZVwTGbZH/XAE=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8FJhXkWU4mKw4UPooP8QTgo9nmo=
+		XgsHS5Pda8C90z0EHZaU8Kq25nE=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		A6ljoXp22LbcTfgHLDkg/KqKaCY=
+		mKgFQrW4tRrg/ECiME9bZtJjUXI=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8FJhXkWU4mKw4UPooP8QTgo9nmo=
+		XgsHS5Pda8C90z0EHZaU8Kq25nE=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vjo3yY2b6zgJtLwfOCR2uqsLnN8=
+		1V/6soGsd3+yiWgMpHbaJAEBws4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		2pI/VL80/RNiOR4bdbYYHcU4rmY=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		1YDyStGRVqS7nDRhBzyigqweM8g=
 		</data>
 		<key>RemittanceDetailsView.nib</key>
 		<data>
@@ -294,7 +306,7 @@
 		</data>
 		<key>TransactionDetailsTableViewCell.nib</key>
 		<data>
-		FUbbJIwWMw+6iijrU2SjchQ3sFk=
+		oyiY6u3SeWImojT8GX/GdQTZxuM=
 		</data>
 		<key>TransactionStepsDetails.nib</key>
 		<data>
@@ -302,7 +314,15 @@
 		</data>
 		<key>TransactionsTableViewCell.nib</key>
 		<data>
-		Ll1RgN6jQG/fsWt2J24oA3aKQX8=
+		Sww5BKOFVHkwp2a8TyeZ9AHOx0o=
+		</data>
+		<key>TransferPromotion.nib</key>
+		<data>
+		fLCsn+4xFjW6qCiD8MDsiOCxSig=
+		</data>
+		<key>jubaexpress.pfx</key>
+		<data>
+		06Nmb5NrXZ+qesCIdvQ9cUFrcDM=
 		</data>
 		<key>loader.gif</key>
 		<data>
@@ -312,6 +332,10 @@
 		<data>
 		h4qSI4MNkeUZgUdcxyZjhNFzafc=
 		</data>
+		<key>uat-jubaexpress.pfx</key>
+		<data>
+		ALVuc1ge0mDTI/ksz1mqTv6RpB8=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -319,21 +343,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VBmNvyQPPfiBQqm0HIQih7moWoDbqrWz80qGlD/HvPI=
+			P/B0yBu7p5Y8+KsGeohY8ISEbXtD0qPE/SuOpaNcTAo=
 			</data>
 		</dict>
 		<key>BeneficiaryListTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eB+HHwzy6qL0ibLfo59X5Kz0Qtl0ujWAO+WebqiOi1Y=
+			heu6ZvStIGN2C6sU4+JZHeGDyxW+VYYV/0IGYNpd08Y=
 			</data>
 		</dict>
 		<key>Headers/JubaExpressSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q4LSDGniycEulv8AyZCS8IMG5pdrTaAUYzDyWEkkCTY=
+			xoqhd4eWz0odVl0v4zswnHaFgd3XgYvuqb6SB/XR9u0=
 			</data>
 		</dict>
 		<key>Headers/JubaExpressSDK.h</key>
@@ -368,14 +392,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Waa434Op45rsEZfbLGi/s724XjkhvqZellihMdmB3WQ=
+			rP+3EyI5HUXZ3WuSAE1+fQIcCZNwAMgpioERaaxzHOM=
 			</data>
 		</dict>
 		<key>JESDKBeneficiary.storyboardc/aOk-RA-R2j-view-Vyt-QU-flo.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qjmSfDEaH4v1ieK1Ri1oOJpJnTpj8OYHFrHM0H9b6aM=
+			pUiCsZgPXx7MXUMaOikgBeUGfZa3TOc3Eo4yXdWfcHI=
 			</data>
 		</dict>
 		<key>JESDKBottomSheet.storyboardc/Info.plist</key>
@@ -403,21 +427,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+1wepfsOyrRxugfXs5tUwPOr7ZoOG54jsgfxkptWJKk=
+			DQCNZZmqfYh30B/lKGU33yHl6GwLiuA7NRx1/6WImuE=
 			</data>
 		</dict>
 		<key>JESDKCurrencyRatesCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GEotRIy96bd2HaUmCAwavS9bbxhqTjKBWgxQkdpcNLE=
+			Ri4jJzQIkdKK9EZC/9BMG3qJJvW3OWsOm5OVNsNZmSA=
 			</data>
 		</dict>
 		<key>JESDKCurrencyRatesView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LJ8ishSx/zTGwoFc6Q9/L3LBKSOybLbvV3O0tn43tM=
+			WZ5spTS0ggMVXGXE0+mlthbnTzGEbGNbeYnJ2uXzcpM=
 			</data>
 		</dict>
 		<key>JESDKDashboard.storyboardc/Info.plist</key>
@@ -438,28 +462,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FfxwWSdq7YS9fOjJlthBvsEpYDiShlferwQss+DNTrk=
+			AoAQ0z8zSKblOyx9QQK5+s1Jz3jeanAnG+P5Jilj+3U=
 			</data>
 		</dict>
 		<key>JESDKDashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0GV0rsz17JYGXcr64LZgrUJLSHfgoskmPv/8LktqQeM=
+			JauHKGXOKm0Z+7iRH7h09/2lK54LAQsC+iAVzkR8V54=
 			</data>
 		</dict>
 		<key>JESDKDashboardBeneficiaryCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DjODZj+x6OJvgoJ4b56DT3TM4VEkaOuCWkvrdybuT6I=
+			JDkqnQIeZ5Il2brc619BQ2ETB0G6vt+YDxJZn7l7DrQ=
 			</data>
 		</dict>
 		<key>JESDKDashboardBeneficiaryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4+h6Up9M+cg/4HaQMioiP3TIA7Z/gWx648PV5XmtEb4=
+			pkw6V6uHzoe7I29YaQWqoV42jYg4knjjRFMCQ9U3jo8=
 			</data>
 		</dict>
 		<key>JESDKDateFilterView.nib</key>
@@ -473,28 +497,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jb0ATFj7EQVmn2Q/15Ku3hLanIuJJC4eEWD+b828JwY=
+			wm+PgFFYPTRUPrn0YZiqrNSwY+asZWlKx5J6NXK279w=
 			</data>
 		</dict>
 		<key>JESDKDepositView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YMtSOCemx8111toPA9Ywp9kQyJKLYDZL1uBqtTrkwC0=
+			ubjnVW4EDR6ASe82MmQZpfoG5VcnEk4bftbBftbtFog=
 			</data>
 		</dict>
 		<key>JESDKDropDownTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AiDhPfEVVlDkX9Z0vL+lVkX1v+Wj227/z+FNRG2Wnl8=
+			CbvQwqkQn6hRs13Mzl1N2UyOBQpv7Y5J+t3u9xBx+Fw=
 			</data>
 		</dict>
 		<key>JESDKEditTextTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IPdA4f11pAMfFtMnbejhvqbSFIeboLeBKzaqacDNY34=
+			oicT4FWEzlsgZPlyxyA0TiVlYacxH6+ZIDbN+Y48RtY=
 			</data>
 		</dict>
 		<key>JESDKExchangeRateView.nib</key>
@@ -508,7 +532,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4rqQmI9Bd/fLH8iQhXmwNbqcF1Rl5vJQ2rXnK4lyvdA=
+			tYoz7eFmoiTU7iLxc8P4Ry8lGbatlIP2YG6+Sqd3gJY=
 			</data>
 		</dict>
 		<key>JESDKIconView.nib</key>
@@ -550,14 +574,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9RmPxZbuPbFahzVSpaTj//Sq18YnMBiSzUnLBasY+uU=
+			lpxbC7iNC68oEB4F4p1BjnDCqdjQUgruw8jLic9oKsY=
 			</data>
 		</dict>
 		<key>JESDKRTCustomAlert.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m6xaIxs/0zk/XfoBJxTA5CjnM7kfe3IuyriHmX8fTM0=
+			elS2LaQvq7qKdEzyPqAc7nuzEMBHkzXfa4sHm/gJdr8=
 			</data>
 		</dict>
 		<key>JESDKRTCustomLoader.nib</key>
@@ -578,7 +602,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ozGpuYQo+G7xHLDzE1d8UuiNBZi8fkggKyiNreWuWeI=
+			9xqO0CaWB7RDFonGm6yKuxV7SD9uvoJPcLatGfldVns=
 			</data>
 		</dict>
 		<key>JESDKReview.storyboardc/Info.plist</key>
@@ -599,7 +623,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XxnwUky0UAYz/G2IpIokgAuHplB9D+Z1lrdlzgxeOVI=
+			+BnHKJrqCwf7B4x0bj8f9ea2VwpOgvy+feeG6NeLM7Y=
 			</data>
 		</dict>
 		<key>JESDKSearchView.nib</key>
@@ -613,7 +637,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fknady1HdVRe95oiroS808LEYWkF5TsC6cce2ZuUNL8=
+			hGFt10emntOJ22pQIzLXirtNO74E9OFSHVOXvlrbzEc=
 			</data>
 		</dict>
 		<key>JESDKSelectionView.nib</key>
@@ -634,7 +658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iyi4Ht7a+4fa5uTC542oy0cI3UwZIp79PFauw8Plg+8=
+			w9cnECwxkzI84sCyEL0PSuprZZb5RWhSua1efuBw3is=
 			</data>
 		</dict>
 		<key>JESDKTransactionReview.nib</key>
@@ -676,7 +700,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			miG8E8munRdwKsjz3hCr9A1UCHD9bI59Tdye6XOTFf0=
+			cqiLm2r8kiPMLVq4Ewxsf0RJd33ggytgrXZWRXNKz3s=
 			</data>
 		</dict>
 		<key>JESDKTransactions.storyboardc/jKC-tu-DDS-view-NIw-jq-Mky.nib</key>
@@ -690,21 +714,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i6F4+V3rrFaFj1N+DzEif0RpabKBgRGqgiAOps2JS8Q=
+			ug6oSkswjVzDE47zX7M8BJzVwIrFBT/9y6Y44spnB1w=
 			</data>
 		</dict>
 		<key>JESDKTransactionsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K+Cb6gEs0Sy5qp7ptRMOmP1SCuyhQzMjouqDFajBEIY=
+			AyynXirYwOW84Owvk1yoE7nt3jv4ZBEy2Af6QpFMfvk=
 			</data>
 		</dict>
 		<key>JESDKTransfer.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			boX1lzTCesFl1a+00WngfG78CiI6OaiJ7ZjH5uisSO4=
+			gfgBSeRU40ROmknyS0EcsGmwQBaGcliJNJFfbPdyffE=
+			</data>
+		</dict>
+		<key>JESDKTransfer.storyboardc/JESDKTermsVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sHrQlZLvmeZxUsgTeWbvyYVwsbw3blWYJeWAN2JVrfY=
 			</data>
 		</dict>
 		<key>JESDKTransfer.storyboardc/JESDKTransferViewController.nib</key>
@@ -714,88 +745,95 @@
 			/GjHuI7Acb7wPf9PPXwJ8xCG+hVnaLCOk8KHmyRyJys=
 			</data>
 		</dict>
+		<key>JESDKTransfer.storyboardc/RyM-IH-6fJ-view-vQQ-8F-38o.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gohE4o9wl0+DPv030PUJt62z+C/dW2qJXjfo1viEw3k=
+			</data>
+		</dict>
 		<key>JESDKTransfer.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2H8yq5AsyQ6eSxB+1R36eRolGVF88ok4B4hrTzu8zSk=
+			FWQpdAxje/Eh2F6kVqRfV3pwuu1rD69DKKjx8TwS/vw=
 			</data>
 		</dict>
 		<key>JESSDKPromotionsCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			81z2SPUoYxPjPlATFw1pzEj+PcxVO/G5dz/Y/KSrMTw=
+			t2rUMN/rRqqq7eUc11Vn5vNiJQ+obAaetcOnf9BADX0=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qmGvQDK5pajPoPBzlzqW+Yxwew2vMfqQl9k5RW4A5Pw=
+			+pnnFBYXvvho8rkgEWqm1P8BxK2Ru9HgfIjo2CbWo68=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			URBZKxqp2/RiJruSkwYdhU3PBYQkhNsWlCoXhMAF3OQ=
+			bCd/2rwsUS4vrA74T2i61D8h6IjmEt5oNZlYmlqKQrQ=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7sX5xmV1u4q+ZBqE0cRyC39B+0b1dacE1B5yJlGVCic=
+			ZFCJ8Uq3P4eVEvePD1jTCVDa5b6RMWn8Xl96fGXj2dU=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			URBZKxqp2/RiJruSkwYdhU3PBYQkhNsWlCoXhMAF3OQ=
+			bCd/2rwsUS4vrA74T2i61D8h6IjmEt5oNZlYmlqKQrQ=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7j+DUP5S6Sgut271Jn42gEtzEikTziKlBjoe//bNl5s=
+			r6DS6GznHiGlOeBKk/pnYBQCFbryexFr7ZR1tm+cCJg=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qmGvQDK5pajPoPBzlzqW+Yxwew2vMfqQl9k5RW4A5Pw=
+			+pnnFBYXvvho8rkgEWqm1P8BxK2Ru9HgfIjo2CbWo68=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bSrtussIM67Mo+vREBHnN62VRXMcr+c/VVSojZFGCqU=
+			nXvM//hoolZ611w9Zsh0oIfddU2+BPfIuzDGe2/tpSA=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			653v/HxIn85JbFG7OjhyJ4wahFCO33bZhNz8iGh9KSo=
+			MIb4yfIKaVKNj3G5qibn/DLZes+GvfIfrPvRAHOmW7w=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bSrtussIM67Mo+vREBHnN62VRXMcr+c/VVSojZFGCqU=
+			nXvM//hoolZ611w9Zsh0oIfddU2+BPfIuzDGe2/tpSA=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wiOa1OVRFZIb8oxZ0k8JjJXfrQwQ8VaIIsTKmgbOO78=
+			Qrwf1RHcl8YnKDE5E6kOIDMcJvERI/8pLABGn2tR55o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -803,6 +841,13 @@
 			<key>hash2</key>
 			<data>
 			TV07ceMIhdYXUq5St8FydSRY1eqyTHiOCZ6IZyAH61Y=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			En1w0QWJPaQ+RJxAQIXDnSC22ImYH3Kwk5DXckewd34=
 			</data>
 		</dict>
 		<key>RemittanceDetailsView.nib</key>
@@ -816,7 +861,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TI6YSUa4TzjxLXXa6RXiCjWfT6S4wNwGE8TNrVqCjpo=
+			HPW2FcGcyeAQK9hyjJO/GJ7wkLVIoZnSyt/Zoyn4Vbk=
 			</data>
 		</dict>
 		<key>TransactionStepsDetails.nib</key>
@@ -830,7 +875,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vXJpj85c3OXVJjRs8H1WeVDyW4u6t6bsEMCmGe9fisE=
+			dY3MInm0OQM9lVJjdaRc/N5NTm/fcFI9MwgypzRP7xs=
+			</data>
+		</dict>
+		<key>TransferPromotion.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qRlaj5KAaF/FWOfm6SNxJ2uX8ieQC6xAVPqRunH1AF4=
+			</data>
+		</dict>
+		<key>jubaexpress.pfx</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W1SKTD8E2kNvYgcKVsMJDf/7CnJeLXnQnI66znzwR/E=
 			</data>
 		</dict>
 		<key>loader.gif</key>
@@ -845,6 +904,13 @@
 			<key>hash2</key>
 			<data>
 			L4/iZ+ue7GNWl7nQmv4N1S3Dd61/EvZjSQ+tO6yP328=
+			</data>
+		</dict>
+		<key>uat-jubaexpress.pfx</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1+ksTk2LOntyxGKoTtk+XAUfjx8VThFsKADEJHj7nkg=
 			</data>
 		</dict>
 	</dict>

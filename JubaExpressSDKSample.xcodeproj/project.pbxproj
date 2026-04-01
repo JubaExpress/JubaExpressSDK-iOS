@@ -17,6 +17,10 @@
 		7C632BD32BAEEC8200242F4A /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C632BD22BAEEC8200242F4A /* CryptoSwift */; };
 		7C632BD52BAEEF9F00242F4A /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C632BD42BAEEF9F00242F4A /* DefaultTheme.swift */; };
 		7C632BD72BAEF02200242F4A /* PaymentSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C632BD62BAEF02200242F4A /* PaymentSDK.swift */; };
+		7C6D9C422F7D1064002F4777 /* SocureDocV in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6D9C412F7D1064002F4777 /* SocureDocV */; };
+		7C6D9C452F7D106E002F4777 /* DeviceRisk in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6D9C442F7D106E002F4777 /* DeviceRisk */; };
+		7C6D9C482F7D1077002F4777 /* Localize_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6D9C472F7D1077002F4777 /* Localize_Swift */; };
+		7C6D9C792F7D46B2002F4777 /* ZendeskSDKMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6D9C782F7D46B2002F4777 /* ZendeskSDKMessaging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +45,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1493CACB36F3A5684930A904 /* Pods_JubaExpressSDKSample.framework in Frameworks */,
+				7C6D9C792F7D46B2002F4777 /* ZendeskSDKMessaging in Frameworks */,
+				7C6D9C422F7D1064002F4777 /* SocureDocV in Frameworks */,
+				7C6D9C482F7D1077002F4777 /* Localize_Swift in Frameworks */,
 				7C632BD32BAEEC8200242F4A /* CryptoSwift in Frameworks */,
+				7C6D9C452F7D106E002F4777 /* DeviceRisk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +127,10 @@
 			name = JubaExpressSDKSample;
 			packageProductDependencies = (
 				7C632BD22BAEEC8200242F4A /* CryptoSwift */,
+				7C6D9C412F7D1064002F4777 /* SocureDocV */,
+				7C6D9C442F7D106E002F4777 /* DeviceRisk */,
+				7C6D9C472F7D1077002F4777 /* Localize_Swift */,
+				7C6D9C782F7D46B2002F4777 /* ZendeskSDKMessaging */,
 			);
 			productName = JubaExpressSDKSample;
 			productReference = 7C632BBA2BAEEC0900242F4A /* JubaExpressSDKSample.app */;
@@ -150,6 +162,10 @@
 			mainGroup = 7C632BB12BAEEC0900242F4A;
 			packageReferences = (
 				7C632BD12BAEEC8200242F4A /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				7C6D9C402F7D1064002F4777 /* XCRemoteSwiftPackageReference "socure-docv-sdk-ios" */,
+				7C6D9C432F7D106E002F4777 /* XCRemoteSwiftPackageReference "socure-sigmadevice-sdk-ios" */,
+				7C6D9C462F7D1077002F4777 /* XCRemoteSwiftPackageReference "Localize-Swift" */,
+				7C6D9C772F7D46B2002F4777 /* XCRemoteSwiftPackageReference "sdk_messaging_ios" */,
 			);
 			productRefGroup = 7C632BBB2BAEEC0900242F4A /* Products */;
 			projectDirPath = "";
@@ -204,9 +220,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -462,7 +482,39 @@
 			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.8.1;
+				minimumVersion = 1.9.0;
+			};
+		};
+		7C6D9C402F7D1064002F4777 /* XCRemoteSwiftPackageReference "socure-docv-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socure-inc/socure-docv-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		7C6D9C432F7D106E002F4777 /* XCRemoteSwiftPackageReference "socure-sigmadevice-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socure-inc/socure-sigmadevice-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.1;
+			};
+		};
+		7C6D9C462F7D1077002F4777 /* XCRemoteSwiftPackageReference "Localize-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Localize-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+		7C6D9C772F7D46B2002F4777 /* XCRemoteSwiftPackageReference "sdk_messaging_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zendesk/sdk_messaging_ios/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.37.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -472,6 +524,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7C632BD12BAEEC8200242F4A /* XCRemoteSwiftPackageReference "CryptoSwift" */;
 			productName = CryptoSwift;
+		};
+		7C6D9C412F7D1064002F4777 /* SocureDocV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C6D9C402F7D1064002F4777 /* XCRemoteSwiftPackageReference "socure-docv-sdk-ios" */;
+			productName = SocureDocV;
+		};
+		7C6D9C442F7D106E002F4777 /* DeviceRisk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C6D9C432F7D106E002F4777 /* XCRemoteSwiftPackageReference "socure-sigmadevice-sdk-ios" */;
+			productName = DeviceRisk;
+		};
+		7C6D9C472F7D1077002F4777 /* Localize_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C6D9C462F7D1077002F4777 /* XCRemoteSwiftPackageReference "Localize-Swift" */;
+			productName = Localize_Swift;
+		};
+		7C6D9C782F7D46B2002F4777 /* ZendeskSDKMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C6D9C772F7D46B2002F4777 /* XCRemoteSwiftPackageReference "sdk_messaging_ios" */;
+			productName = ZendeskSDKMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

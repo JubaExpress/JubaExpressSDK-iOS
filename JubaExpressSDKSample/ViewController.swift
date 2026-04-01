@@ -64,7 +64,7 @@ extension ViewController: JESDKDelegate {
     
     func startSDK(referenceId: String? = nil) {
         
-        JESDK.initSDK(configuration: PaymentSDK().getConfiguration(referenceId: referenceId), root: self)
+        JESDK.initSDK(configuration: PaymentSDK().getConfiguration(referenceId: referenceId))
         JESDK.sharedInstance()?.delegate = self
         
     }
