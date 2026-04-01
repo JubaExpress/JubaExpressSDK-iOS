@@ -144,8 +144,24 @@ Upon creation of transaction, the SDK will return a payment object. This object 
 ViewController: JESDKDelegate {
     
     func JESDKSecretKey(payment: Payment) {
+      
         let secretKey = payment.secretkey
         let referenceId = payment.referenceId
+        let totalSentAmount = payment.totalSentAmount
+        let currencyCode = payment.currencyCode
+        let beneficiaryName = payment.BeneficiaryName
+        let destinationCountry = payment.DestinationCountry
+        let paymentMode = payment.PaymentMode
+        let accountNo = payment.AccountNo
+        let sentAmount = payment.SentAmount
+        let commissionAmount = payment.CommissionAmount
+        let beneficiaryMobile = payment.BeneficiaryMobile
+        let payCurrencyCode = payment.PayCurrencyCode
+        let payoutAmount = payment.PayoutAmount
+        let destinationCountryCode = payment.DestinationCountryCode
+        let sourceOfFunds = payment.SourceOfFunds
+        let purpose = payment.Purpose
+        let beneficiaryRelationship = payment.BeneficiaryRelationship
         
         // handle your payment process
     }
@@ -163,7 +179,7 @@ let configuration = JESDKConfiguration(BaseURL: "<Your_Url>",subscriptionKey:
   environment: .UAT,
   customerInfo: customerInfoObject)  
 
-  JESDK.init(configuration: configuration, root: self) 
+  JESDK.init(configuration: configuration) 
 ```
 
 You will redirect to transaction receipt screen. 
@@ -180,6 +196,10 @@ JESDK.setBackgroundColor("YourColor")
 JESDK.setTopHeadingColor("YourColor")
 JESDK.setButtonTextColor("YourColor")
 JESDK.setButtonBackgroundColor("YourColor")
+JESDK.setStartTransferButtonBackgroundColor("YourColor")
+JESDK.setStartTransferButtonTextColor("YourColor")
+JESDK.setCreateRemittanceText("Your Text")
+JESDK.setStartTransfeText("Your Text")
 ```
 
 

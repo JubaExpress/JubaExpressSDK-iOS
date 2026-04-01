@@ -59,6 +59,7 @@ extension ViewController: JESDKDelegate {
         JESDK.setButtonTextColor(.white)
         JESDK.setButtonBackgroundColor(DefaultTheme.Colors.secondory)
         JESDK.setCreateRemittanceText("Create Remittance")
+        JESDK.setStartTransfeText("Start Transfer")
         JESDK.setStartTransferButtonTextColor(.white)
         JESDK.setStartTransferButtonBackgroundColor(.black)
     }
