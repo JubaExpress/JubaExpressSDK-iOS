@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1493CACB36F3A5684930A904 /* Pods_JubaExpressSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FA364C5F9903999F755191 /* Pods_JubaExpressSDKSample.framework */; };
 		7C632BBE2BAEEC0900242F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C632BBD2BAEEC0900242F4A /* AppDelegate.swift */; };
 		7C632BC02BAEEC0900242F4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C632BBF2BAEEC0900242F4A /* SceneDelegate.swift */; };
 		7C632BC22BAEEC0900242F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C632BC12BAEEC0900242F4A /* ViewController.swift */; };
@@ -21,10 +20,10 @@
 		7C6D9C452F7D106E002F4777 /* DeviceRisk in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6D9C442F7D106E002F4777 /* DeviceRisk */; };
 		7C6D9C482F7D1077002F4777 /* Localize_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6D9C472F7D1077002F4777 /* Localize_Swift */; };
 		7C6D9C792F7D46B2002F4777 /* ZendeskSDKMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6D9C782F7D46B2002F4777 /* ZendeskSDKMessaging */; };
+		D25318409203A6905B154C5C /* libPods-JubaExpressSDKSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913D43FA87F45EE504B29A72 /* libPods-JubaExpressSDKSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57FA364C5F9903999F755191 /* Pods_JubaExpressSDKSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JubaExpressSDKSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E94A6E3FFF89CBCB97D1899 /* Pods-JubaExpressSDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JubaExpressSDKSample.debug.xcconfig"; path = "Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample.debug.xcconfig"; sourceTree = "<group>"; };
 		7C632BBA2BAEEC0900242F4A /* JubaExpressSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JubaExpressSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C632BBD2BAEEC0900242F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		7C632BCB2BAEEC0A00242F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C632BD42BAEEF9F00242F4A /* DefaultTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
 		7C632BD62BAEF02200242F4A /* PaymentSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSDK.swift; sourceTree = "<group>"; };
+		913D43FA87F45EE504B29A72 /* libPods-JubaExpressSDKSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JubaExpressSDKSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6880D1C551D0D305D0B5D77 /* Pods-JubaExpressSDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JubaExpressSDKSample.release.xcconfig"; path = "Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,12 +44,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1493CACB36F3A5684930A904 /* Pods_JubaExpressSDKSample.framework in Frameworks */,
 				7C6D9C792F7D46B2002F4777 /* ZendeskSDKMessaging in Frameworks */,
 				7C6D9C422F7D1064002F4777 /* SocureDocV in Frameworks */,
 				7C6D9C482F7D1077002F4777 /* Localize_Swift in Frameworks */,
 				7C632BD32BAEEC8200242F4A /* CryptoSwift in Frameworks */,
 				7C6D9C452F7D106E002F4777 /* DeviceRisk in Frameworks */,
+				D25318409203A6905B154C5C /* libPods-JubaExpressSDKSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 		899B7AA908E9AF33790A59EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				57FA364C5F9903999F755191 /* Pods_JubaExpressSDKSample.framework */,
+				913D43FA87F45EE504B29A72 /* libPods-JubaExpressSDKSample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +119,7 @@
 				7C632BB72BAEEC0900242F4A /* Frameworks */,
 				7C632BB82BAEEC0900242F4A /* Resources */,
 				F9532E91128E3834DFBABA94 /* [CP] Embed Pods Frameworks */,
+				E96DBA4F79C87DE9597266D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +213,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E96DBA4F79C87DE9597266D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F9532E91128E3834DFBABA94 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,13 +238,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSample/Pods-JubaExpressSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

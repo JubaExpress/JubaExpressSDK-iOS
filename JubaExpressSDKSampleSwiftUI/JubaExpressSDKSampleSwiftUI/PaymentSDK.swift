@@ -1,8 +1,8 @@
 //
-//  StartSDK.swift
-//  Juba Express Money Transfer
+//  PaymentSDK.swift
+//  Juba SDK Tests
 //
-//  Created by JubaExpressSDK on 20/05/2023.
+//  Created by John Wamunye on 18/03/2026.
 //
 
 import Foundation
@@ -35,7 +35,7 @@ public class PaymentSDK {
                                               Gender: "0",
                                               Document: customerDocument)
         
-        return JESDKConfiguration(BaseURL: "Base URL",
+        return JESDKConfiguration(BaseURL: "BaseURL",
                                   SubscriptionKey: getKeys().0,
                                   PartnerKey: getKeys().1,
                                   referenceid: referenceId,
@@ -45,7 +45,7 @@ public class PaymentSDK {
     }
     
     func getKeys() -> (String, String, String) {
-        //        JUBA SubscriptionKey, PartnerKey
+        //        JUBA SubscriptionKey, PartnerKey , CIF
         return ("SubscriptionKey", "PartnerKey", "CIF")
     }
 }

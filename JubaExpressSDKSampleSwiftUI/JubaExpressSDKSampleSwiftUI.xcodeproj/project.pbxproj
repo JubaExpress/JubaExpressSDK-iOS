@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C9607C42F7D715000BB736F /* ZendeskSDKMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9607C32F7D715000BB736F /* ZendeskSDKMessaging */; };
+		7C9607C72F7D715500BB736F /* Localize_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9607C62F7D715500BB736F /* Localize_Swift */; };
+		7C9607CA2F7D715D00BB736F /* DeviceRisk in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9607C92F7D715D00BB736F /* DeviceRisk */; };
+		7C9607CD2F7D716400BB736F /* SocureDocV in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9607CC2F7D716400BB736F /* SocureDocV */; };
+		7C9607D02F7D717000BB736F /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9607CF2F7D717000BB736F /* CryptoSwift */; };
+		A10A5AA519A8D6EB17F9564B /* libPods-JubaExpressSDKSampleSwiftUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B408836B67DFE9ABF7EA3E9 /* libPods-JubaExpressSDKSampleSwiftUI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A0E3ADF9B869998335A125 /* Pods-JubaExpressSDKSampleSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JubaExpressSDKSampleSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-JubaExpressSDKSampleSwiftUI/Pods-JubaExpressSDKSampleSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		29DFFD53E8DED3EFDA062285 /* Pods-JubaExpressSDKSampleSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JubaExpressSDKSampleSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-JubaExpressSDKSampleSwiftUI/Pods-JubaExpressSDKSampleSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		3B408836B67DFE9ABF7EA3E9 /* libPods-JubaExpressSDKSampleSwiftUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JubaExpressSDKSampleSwiftUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9607AC2F7D6F1800BB736F /* JubaExpressSDKSampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JubaExpressSDKSampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7C9607AE2F7D6F1800BB736F /* JubaExpressSDKSampleSwiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JubaExpressSDKSampleSwiftUI;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C9607A92F7D6F1800BB736F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9607C72F7D715500BB736F /* Localize_Swift in Frameworks */,
+				A10A5AA519A8D6EB17F9564B /* libPods-JubaExpressSDKSampleSwiftUI.a in Frameworks */,
+				7C9607C42F7D715000BB736F /* ZendeskSDKMessaging in Frameworks */,
+				7C9607CA2F7D715D00BB736F /* DeviceRisk in Frameworks */,
+				7C9607CD2F7D716400BB736F /* SocureDocV in Frameworks */,
+				7C9607D02F7D717000BB736F /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA28CD17425CB6B5075EB2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B408836B67DFE9ABF7EA3E9 /* libPods-JubaExpressSDKSampleSwiftUI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F1178F70648C42FE75C001A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04A0E3ADF9B869998335A125 /* Pods-JubaExpressSDKSampleSwiftUI.debug.xcconfig */,
+				29DFFD53E8DED3EFDA062285 /* Pods-JubaExpressSDKSampleSwiftUI.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		7C9607A32F7D6F1800BB736F = {
+			isa = PBXGroup;
+			children = (
+				7C9607AE2F7D6F1800BB736F /* JubaExpressSDKSampleSwiftUI */,
+				7C9607AD2F7D6F1800BB736F /* Products */,
+				5F1178F70648C42FE75C001A /* Pods */,
+				3BA28CD17425CB6B5075EB2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C9607AD2F7D6F1800BB736F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C9607AC2F7D6F1800BB736F /* JubaExpressSDKSampleSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C9607AB2F7D6F1800BB736F /* JubaExpressSDKSampleSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9607B72F7D6F1900BB736F /* Build configuration list for PBXNativeTarget "JubaExpressSDKSampleSwiftUI" */;
+			buildPhases = (
+				6BE8F0740E530DC5E9F61B77 /* [CP] Check Pods Manifest.lock */,
+				7C9607A82F7D6F1800BB736F /* Sources */,
+				7C9607A92F7D6F1800BB736F /* Frameworks */,
+				7C9607AA2F7D6F1800BB736F /* Resources */,
+				C31C2350F8167E16FC6E04A6 /* [CP] Embed Pods Frameworks */,
+				228D24F3881C5BA88000F01C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7C9607AE2F7D6F1800BB736F /* JubaExpressSDKSampleSwiftUI */,
+			);
+			name = JubaExpressSDKSampleSwiftUI;
+			productName = JubaExpressSDKSampleSwiftUI;
+			productReference = 7C9607AC2F7D6F1800BB736F /* JubaExpressSDKSampleSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C9607A42F7D6F1800BB736F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					7C9607AB2F7D6F1800BB736F = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 7C9607A72F7D6F1800BB736F /* Build configuration list for PBXProject "JubaExpressSDKSampleSwiftUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C9607A32F7D6F1800BB736F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7C9607C22F7D715000BB736F /* XCRemoteSwiftPackageReference "sdk_messaging_ios" */,
+				7C9607C52F7D715500BB736F /* XCRemoteSwiftPackageReference "Localize-Swift" */,
+				7C9607C82F7D715D00BB736F /* XCRemoteSwiftPackageReference "socure-sigmadevice-sdk-ios" */,
+				7C9607CB2F7D716400BB736F /* XCRemoteSwiftPackageReference "socure-docv-sdk-ios" */,
+				7C9607CE2F7D716F00BB736F /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7C9607AD2F7D6F1800BB736F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C9607AB2F7D6F1800BB736F /* JubaExpressSDKSampleSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C9607AA2F7D6F1800BB736F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		228D24F3881C5BA88000F01C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSampleSwiftUI/Pods-JubaExpressSDKSampleSwiftUI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSampleSwiftUI/Pods-JubaExpressSDKSampleSwiftUI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSampleSwiftUI/Pods-JubaExpressSDKSampleSwiftUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE8F0740E530DC5E9F61B77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JubaExpressSDKSampleSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31C2350F8167E16FC6E04A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSampleSwiftUI/Pods-JubaExpressSDKSampleSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSampleSwiftUI/Pods-JubaExpressSDKSampleSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JubaExpressSDKSampleSwiftUI/Pods-JubaExpressSDKSampleSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C9607A82F7D6F1800BB736F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C9607B52F7D6F1900BB736F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YS69J99335;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C9607B62F7D6F1900BB736F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YS69J99335;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C9607B82F7D6F1900BB736F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A0E3ADF9B869998335A125 /* Pods-JubaExpressSDKSampleSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YS69J99335;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapi.JubaExpressSDKSampleSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C9607B92F7D6F1900BB736F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DFFD53E8DED3EFDA062285 /* Pods-JubaExpressSDKSampleSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YS69J99335;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapi.JubaExpressSDKSampleSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C9607A72F7D6F1800BB736F /* Build configuration list for PBXProject "JubaExpressSDKSampleSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9607B52F7D6F1900BB736F /* Debug */,
+				7C9607B62F7D6F1900BB736F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C9607B72F7D6F1900BB736F /* Build configuration list for PBXNativeTarget "JubaExpressSDKSampleSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9607B82F7D6F1900BB736F /* Debug */,
+				7C9607B92F7D6F1900BB736F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C9607C22F7D715000BB736F /* XCRemoteSwiftPackageReference "sdk_messaging_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zendesk/sdk_messaging_ios/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.38.0;
+			};
+		};
+		7C9607C52F7D715500BB736F /* XCRemoteSwiftPackageReference "Localize-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Localize-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+		7C9607C82F7D715D00BB736F /* XCRemoteSwiftPackageReference "socure-sigmadevice-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socure-inc/socure-sigmadevice-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.1;
+			};
+		};
+		7C9607CB2F7D716400BB736F /* XCRemoteSwiftPackageReference "socure-docv-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socure-inc/socure-docv-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		7C9607CE2F7D716F00BB736F /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C9607C32F7D715000BB736F /* ZendeskSDKMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9607C22F7D715000BB736F /* XCRemoteSwiftPackageReference "sdk_messaging_ios" */;
+			productName = ZendeskSDKMessaging;
+		};
+		7C9607C62F7D715500BB736F /* Localize_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9607C52F7D715500BB736F /* XCRemoteSwiftPackageReference "Localize-Swift" */;
+			productName = Localize_Swift;
+		};
+		7C9607C92F7D715D00BB736F /* DeviceRisk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9607C82F7D715D00BB736F /* XCRemoteSwiftPackageReference "socure-sigmadevice-sdk-ios" */;
+			productName = DeviceRisk;
+		};
+		7C9607CC2F7D716400BB736F /* SocureDocV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9607CB2F7D716400BB736F /* XCRemoteSwiftPackageReference "socure-docv-sdk-ios" */;
+			productName = SocureDocV;
+		};
+		7C9607CF2F7D717000BB736F /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9607CE2F7D716F00BB736F /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7C9607A42F7D6F1800BB736F /* Project object */;
+}

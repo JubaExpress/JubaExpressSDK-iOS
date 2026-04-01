@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53C62DFBFEC8E356EE3521E8FBC0D12F"
-               BuildableName = "Pods_JubaExpressSDKSample.framework"
+               BuildableName = "libPods-JubaExpressSDKSample.a"
                BlueprintName = "Pods-JubaExpressSDKSample"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

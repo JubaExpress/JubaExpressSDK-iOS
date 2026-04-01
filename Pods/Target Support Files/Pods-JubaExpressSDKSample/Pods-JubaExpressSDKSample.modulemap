@@ -1,4 +1,4 @@
-framework module Pods_JubaExpressSDKSample {
+module Pods_JubaExpressSDKSample {
   umbrella header "Pods-JubaExpressSDKSample-umbrella.h"
 
   export *
