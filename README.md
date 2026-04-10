@@ -127,7 +127,7 @@ let configuration = JESDKConfiguration(BaseURL: "<BaseURL>",
 Finally, initialize the SDK by calling:
 
 ```bash
-JESDK.init(configuration: configuration, root: self) 
+JESDK.init(configuration: configuration) 
 ```
 
 ## JubaExpressSDK Delegate

@@ -45,7 +45,7 @@ public class PaymentSDK {
     }
     
     func getKeys() -> (String, String, String) {
-        //        JUBA SubscriptionKey, PartnerKey
+        //  SubscriptionKey, PartnerKey
         return ("SubscriptionKey", "PartnerKey", "CIF")
     }
 }
