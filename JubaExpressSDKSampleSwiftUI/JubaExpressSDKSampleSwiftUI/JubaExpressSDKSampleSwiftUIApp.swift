@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import IQKeyboardManagerSwift
+import IQKeyboardToolbarManager
 
 @main
 struct JubaExpressSDKSampleSwiftUIApp: App {
+    
+    init() {
+            IQKeyboardManager.shared.isEnabled = true
+            IQKeyboardToolbarManager.shared.isEnabled = true
+        }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ConfigurationView()
         }
     }
 }

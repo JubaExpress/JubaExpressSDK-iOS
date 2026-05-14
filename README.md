@@ -27,7 +27,6 @@ After installing the pod, you also need to add these Swift packages to your proj
 
 ```bash
   CryptoSwift : https://github.com/krzyzanowskim/CryptoSwift.git
-  Localize-Swift : https://github.com/marmelroy/Localize-Swift.git
   Zendesk : https://github.com/zendesk/sdk_messaging_ios/
   SocureDocV : https://github.com/socure-inc/socure-docv-sdk-ios
   SigmaDevice : https://github.com/socure-inc/socure-sigmadevice-sdk-ios
@@ -43,7 +42,7 @@ Import the JubaExpressSDK in the ViewController where you want to initialize it:
 
 
 ## Initialization
-Initialize the JubaExpressSDK with the required `JESDKConfiguration` and a reference to the root view controller. The initialization process requires configuration parameters such as `JESSDKCustomerDocument`, `JESSDKCustomerName`, and `JESSDKCustomerInfo` objects
+Initialize the JubaExpressSDK with the required `JESDKConfiguration` . The initialization process requires configuration parameters such as `JESSDKCustomerDocument`, `JESSDKCustomerName`, and `JESSDKCustomerInfo` objects
 
 #### JESSDKCustomerDocument
 

@@ -37,7 +37,7 @@ PODS:
     - IQKeyboardCore
   - IQTextView (1.0.5):
     - IQKeyboardToolbar/Placeholderable
-  - JubaExpressSDK (2.2.2)
+  - JubaExpressSDK (2.2.3)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
@@ -64,7 +64,7 @@ SPEC CHECKSUMS:
   IQKeyboardToolbarManager: d449479b5843d4a3fb902d03bf62d6ca031ac20e
   IQTextInputViewNotification: 3b9fb27a16e7ee8958cc9092cfb07a1a9e1fd559
   IQTextView: ae13b4922f22e6f027f62c557d9f4f236b19d5c7
-  JubaExpressSDK: 900795c9f8910f31afa67bce27fc46a956e2ddbc
+  JubaExpressSDK: 964df68d7eabceaecc9e9302f0dec2ccf4f0a562
 
 PODFILE CHECKSUM: ed9c5b434f10a961a40a0eb6b1e6b1aa69e52280
 

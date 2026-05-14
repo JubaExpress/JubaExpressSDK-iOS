@@ -7,5 +7,4 @@ framework module JubaExpressSDK {
 
 module JubaExpressSDK.Swift {
   header "JubaExpressSDK-Swift.h"
-  requires objc
 }

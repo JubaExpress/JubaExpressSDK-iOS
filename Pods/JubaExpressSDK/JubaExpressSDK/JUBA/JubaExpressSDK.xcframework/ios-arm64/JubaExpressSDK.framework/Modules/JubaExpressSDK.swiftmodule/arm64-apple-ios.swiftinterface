@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name JubaExpressSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name JubaExpressSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AVKit
 import Accelerate
 import Combine
@@ -14,7 +14,6 @@ import DeviceRisk
 import Foundation
 import ImageIO
 @_exported import JubaExpressSDK
-import Localize_Swift
 import MobileCoreServices
 import PDFKit
 import QuartzCore
@@ -29,17 +28,13 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc public class JESDKConfiguration : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(BaseURL: Swift.String, SubscriptionKey: Swift.String, PartnerKey: Swift.String, referenceid: Swift.String? = nil, customerInfo: JubaExpressSDK.JESSDKCustomerInfo, enviroment: JubaExpressSDK.JESDKBuildEnvironment, IsViewTransactionHistory: Swift.Bool? = false, language: Swift.String? = "ENG", zendeskInAppObject: ZendeskSDK.Zendesk? = nil)
-  #endif
   @objc deinit
 }
 public enum JESDKBuildEnvironment : Swift.String {
   case Live
   case UAT
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -73,9 +68,7 @@ public enum SearchType {
   @objc deinit
 }
 extension JubaExpressSDK.JESDK {
-  #if compiler(>=5.3) && $NonescapableTypes
   public class func sharedInstance() -> JubaExpressSDK.JESDK?
-  #endif
 }
 extension JubaExpressSDK.JESDK {
   @objc dynamic public class func setTopHeadingColor(_ color: UIKit.UIColor)
@@ -117,9 +110,7 @@ public struct Payment {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class FadeTransition : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc open func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc open func animateTransition(using transitionContext: any UIKit.UIViewControllerContextTransitioning)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
   @objc deinit
@@ -134,30 +125,14 @@ open class KeychainWrapper {
   public init(serviceName: Swift.String)
   open class func standardKeychainAccess() -> JubaExpressSDK.KeychainWrapper
   open func hasValueForKey(_ keyName: Swift.String) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   open func integerForKey(_ keyName: Swift.String) -> Swift.Int?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func floatForKey(_ keyName: Swift.String) -> Swift.Float?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func doubleForKey(_ keyName: Swift.String) -> Swift.Double?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func boolForKey(_ keyName: Swift.String) -> Swift.Bool?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func stringForKey(_ keyName: Swift.String) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func objectForKey(_ keyName: Swift.String) -> (any Foundation.NSCoding)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func dataForKey(_ keyName: Swift.String) -> Foundation.Data?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func dataRefForKey(_ keyName: Swift.String) -> Foundation.Data?
-  #endif
   open func setInteger(_ value: Swift.Int, forKey keyName: Swift.String) -> Swift.Bool
   open func setFloat(_ value: Swift.Float, forKey keyName: Swift.String) -> Swift.Bool
   open func setDouble(_ value: Swift.Double, forKey keyName: Swift.String) -> Swift.Bool
@@ -176,31 +151,21 @@ extension JubaExpressSDK.KeychainWrapper {
     get
     set(newServiceName)
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Use KeychainWrapper.standardKeychainAccess().accessGroup. Changing accessGroup will not be supported in the future. Instead create a new KeychainWrapper instance with a custom accessGroup.")
   public class var accessGroup: Swift.String? {
     get
     set(newAccessGroup)
   }
-  #endif
   @available(*, deprecated, message: "Access via KeychainWrapper.standardKeychainAccess()")
   public class func hasValueForKey(_ keyName: Swift.String) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Access via KeychainWrapper.standardKeychainAccess()")
   public class func stringForKey(_ keyName: Swift.String) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Access via KeychainWrapper.standardKeychainAccess()")
   public class func objectForKey(_ keyName: Swift.String) -> (any Foundation.NSCoding)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Access via KeychainWrapper.standardKeychainAccess()")
   public class func dataForKey(_ keyName: Swift.String) -> Foundation.Data?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Access via KeychainWrapper.standardKeychainAccess()")
   public class func dataRefForKey(_ keyName: Swift.String) -> Foundation.Data?
-  #endif
   @available(*, deprecated, message: "Access via KeychainWrapper.standardKeychainAccess()")
   public class func setString(_ value: Swift.String, forKey keyName: Swift.String) -> Swift.Bool
   @available(*, deprecated, message: "Access via KeychainWrapper.standardKeychainAccess()")
@@ -216,18 +181,10 @@ extension JubaExpressSDK.KeychainWrapper {
     @objc set
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func animationController(forDismissed dismissed: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  #endif
   @objc deinit
 }
 infix operator |> : AdditionPrecedence
@@ -248,38 +205,26 @@ public enum DPDraggableButtonType {
   @_Concurrency.MainActor @preconcurrency open var draggableButtonType: JubaExpressSDK.DPDraggableButtonType
   @_Concurrency.MainActor @preconcurrency open var beginLocation: CoreFoundation.CGPoint?
   @_Concurrency.MainActor @preconcurrency open var longPressGestureRecognizer: UIKit.UILongPressGestureRecognizer
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var tapBlock: (() -> Swift.Void)? {
     get
     set(tapBlock)
   }
-  #endif
   @_Concurrency.MainActor @preconcurrency open var doubleTapBlock: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency open var longPressBlock: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency open var draggingBlock: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency open var dragDoneBlock: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency open var autoDockingBlock: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency open var autoDockingDoneBlock: (() -> Swift.Void)?
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, draggableButtonType: JubaExpressSDK.DPDraggableButtonType)
   @_Concurrency.MainActor @preconcurrency open func addButtonToKeyWindow()
   @_Concurrency.MainActor @preconcurrency open class func removeAllFromKeyWindow()
   @_Concurrency.MainActor @preconcurrency open class func removeFromKeyWindow(button: JubaExpressSDK.JESDKDPDraggableButton)
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency open class TransitionButton : UIKit.UIButton, UIKit.UIViewControllerTransitioningDelegate, QuartzCore.CAAnimationDelegate {
@@ -295,12 +240,15 @@ public enum DPDraggableButtonType {
     @objc get
     @objc set
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForInterfaceBuilder()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @_Concurrency.MainActor @preconcurrency open func startAnimation()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SDKLocalization {
+  public static var currentLanguage: Swift.String?
+  public static func localized(_ key: Swift.String) -> Swift.String
   @objc deinit
 }
 extension JubaExpressSDK.JESDKBuildEnvironment : Swift.Equatable {}

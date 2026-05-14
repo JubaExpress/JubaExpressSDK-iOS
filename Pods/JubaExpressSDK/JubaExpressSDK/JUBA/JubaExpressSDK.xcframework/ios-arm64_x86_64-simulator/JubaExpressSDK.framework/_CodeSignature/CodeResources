@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		g1peeftc2wlUMAf0pCQZKCW2Kuo=
+		p36ivYgKaxIM51KiUgRvwnp1ryo=
 		</data>
 		<key>BeneficiaryListTableViewCell.nib</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/JubaExpressSDK-Swift.h</key>
 		<data>
-		eLUxSXWc+3gYsS7Ev/lo82x0hiw=
+		mDRjnl9I/0/52Yae9F097OEgozc=
 		</data>
 		<key>Headers/JubaExpressSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WYTu7d+wSGTK7+mirvrmKaIzEE8=
+		ZRnh6+VK8gKOLWZxyO9RRfvQrmM=
 		</data>
 		<key>JESDKBeneficiary.storyboardc/Info.plist</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>JESDKDashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		uE2nFaRhoZEaWoVJVbwiXY+KlOU=
+		R2ZEVnE8RbKIyPNhh1LAysnuSvU=
 		</data>
 		<key>JESDKDashboardBeneficiaryCollectionViewCell.nib</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>JESDKTransactions.storyboardc/wgs-zA-gb6-view-WVy-6S-9fg.nib</key>
 		<data>
-		yNFhB/jKn/5ErovrRLGnyOmgD3U=
+		bCAHCM8TkoNtTRX8O743rpQIfTk=
 		</data>
 		<key>JESDKTransactionsView.nib</key>
 		<data>
@@ -254,63 +254,83 @@
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		naRzmk8F8LecXRXZVwTGbZH/XAE=
+		kqJnUpIplhuWa2j9smrOWzZ6wC0=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		N7S/8KNDmmGYk2/REoUXx19jSRU=
+		zggiEt77UXZtcOrtgOLcKNZkfng=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/P8zgqBe/weI9CeCwdesz4Ygf0g=
+		Io1lAebEbhV2PR4q3csbzZCNSl0=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		N7S/8KNDmmGYk2/REoUXx19jSRU=
+		zggiEt77UXZtcOrtgOLcKNZkfng=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5A56yzi7y1Qe2hhwdS8RvXoR8OM=
+		Q623bMZDeJLDqP3/HmDChnPRXSQ=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		naRzmk8F8LecXRXZVwTGbZH/XAE=
+		kqJnUpIplhuWa2j9smrOWzZ6wC0=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XgsHS5Pda8C90z0EHZaU8Kq25nE=
+		PxHCMaonsjCEvXkw4qU0TeWSNNc=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mKgFQrW4tRrg/ECiME9bZtJjUXI=
+		u9D6bURI99Y8zyS99qzbwjUAILI=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XgsHS5Pda8C90z0EHZaU8Kq25nE=
+		PxHCMaonsjCEvXkw4qU0TeWSNNc=
 		</data>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1V/6soGsd3+yiWgMpHbaJAEBws4=
+		KFxvgXh6QyffAbC7JBLopHvg4ZE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		2pI/VL80/RNiOR4bdbYYHcU4rmY=
+		6FRofIbu34ydVRZJ9rnkPKcEIT8=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		1YDyStGRVqS7nDRhBzyigqweM8g=
 		</data>
+		<key>ReceiptTransactionDetails.nib</key>
+		<data>
+		ROyZTm/YL7HrwaEWyTQKyGwd7rk=
+		</data>
+		<key>ReciepRateView.nib</key>
+		<data>
+		vtnlPqMjbWog67s2LTJin7PZabo=
+		</data>
+		<key>RecieptStatusView.nib</key>
+		<data>
+		bSZb8REkOqvfPPLom6Cyqf9IaJg=
+		</data>
+		<key>RecieptTransactionParticularDetails.nib</key>
+		<data>
+		/5z2CrfMEIGZJTqPu4jAEW3g0J0=
+		</data>
 		<key>RemittanceDetailsView.nib</key>
 		<data>
-		StjyY+IitnARVWge9rulsYresPE=
+		x51unPZXRzkqvkJJG8nCyXDcebM=
+		</data>
+		<key>SecondoryDocumentUpload.nib</key>
+		<data>
+		STzLdMMLd0qCguR7JfppfrVoDDo=
 		</data>
 		<key>TransactionDetailsTableViewCell.nib</key>
 		<data>
-		oyiY6u3SeWImojT8GX/GdQTZxuM=
+		ztoX70bc2EpphpYPVz19Sazk158=
 		</data>
 		<key>TransactionStepsDetails.nib</key>
 		<data>
-		2+qZKwqkKNW5FqBlTcLtLqwTbsU=
+		ZAzXoKIXQCdulUbsBP0rKyGts9E=
 		</data>
 		<key>TransactionsTableViewCell.nib</key>
 		<data>
@@ -320,6 +340,78 @@
 		<data>
 		fLCsn+4xFjW6qCiD8MDsiOCxSig=
 		</data>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nkk8jkit8Gc+0IBhCi2ih0TGaHg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>da.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tFn295P8xJ/ltJepEOLWAJuVyaU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w/ABDSFe3ifbdFRjQlAMrL+WCsU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UA2caMnja9JmJ9FZ4IdFUtNX6nw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I6cnpc4flcE2G8rC/NC8zDDONPE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MuiZgBaxTCBAgwiNAIMIJBvjM6Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DypoCuGRJdjRDjckcFdyhEe65F8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			obladwYWL5BgJtr4J3z48uPM+2w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>jubaexpress.pfx</key>
 		<data>
 		06Nmb5NrXZ+qesCIdvQ9cUFrcDM=
@@ -328,6 +420,42 @@
 		<data>
 		Meu6MiJBJ4tnbwdX6D71596LX3w=
 		</data>
+		<key>nb.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tfyedv71ON/mP2g/qPOK1PRvOlU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B5eBNXC3pt+yRA8ifnH5S0mUXNE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>so.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rys+z2a/d3/Rj9Q28iSY8rGlczo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>sv.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MDJ4/4nTWo0+gKaKNNN1/Gt9wME=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>transferButton.gif</key>
 		<data>
 		h4qSI4MNkeUZgUdcxyZjhNFzafc=
@@ -343,7 +471,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/B0yBu7p5Y8+KsGeohY8ISEbXtD0qPE/SuOpaNcTAo=
+			7JXiW5XdBwJnmPf3hwx/Kt1YDCkjxNrBqVgEhVCBy8Q=
 			</data>
 		</dict>
 		<key>BeneficiaryListTableViewCell.nib</key>
@@ -357,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xoqhd4eWz0odVl0v4zswnHaFgd3XgYvuqb6SB/XR9u0=
+			9PZxuqdRwUNgyHlNpAukp2cNuuC6moTPaeGqsDDF3S0=
 			</data>
 		</dict>
 		<key>Headers/JubaExpressSDK.h</key>
@@ -469,7 +597,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JauHKGXOKm0Z+7iRH7h09/2lK54LAQsC+iAVzkR8V54=
+			j0l1Iegk9LFemFDbGScVK8OE37xxthlKD+ClTQQUYKM=
 			</data>
 		</dict>
 		<key>JESDKDashboardBeneficiaryCollectionViewCell.nib</key>
@@ -714,7 +842,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ug6oSkswjVzDE47zX7M8BJzVwIrFBT/9y6Y44spnB1w=
+			Pftauh9J9Y4DFn8+qwiLE4105307L4LqMDRmaSyKUTE=
 			</data>
 		</dict>
 		<key>JESDKTransactionsView.nib</key>
@@ -770,77 +898,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+pnnFBYXvvho8rkgEWqm1P8BxK2Ru9HgfIjo2CbWo68=
+			7tqqWArKHzsnwSG+xyyBXtC1rfnEuqZt4p1l17LicI4=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bCd/2rwsUS4vrA74T2i61D8h6IjmEt5oNZlYmlqKQrQ=
+			VMGG6ddzpRjKxKx8HFvd/CqTpAoc4wftrQHct2n+Qu8=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZFCJ8Uq3P4eVEvePD1jTCVDa5b6RMWn8Xl96fGXj2dU=
+			HKfEkLnws00/J7GBpJzxGV1+BgYkT2EEmkJo4SnYbFs=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bCd/2rwsUS4vrA74T2i61D8h6IjmEt5oNZlYmlqKQrQ=
+			VMGG6ddzpRjKxKx8HFvd/CqTpAoc4wftrQHct2n+Qu8=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r6DS6GznHiGlOeBKk/pnYBQCFbryexFr7ZR1tm+cCJg=
+			NLZBL3g500EQBL3bqqQh7UkcyEVc3B2TFprCP59ZkQA=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+pnnFBYXvvho8rkgEWqm1P8BxK2Ru9HgfIjo2CbWo68=
+			7tqqWArKHzsnwSG+xyyBXtC1rfnEuqZt4p1l17LicI4=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nXvM//hoolZ611w9Zsh0oIfddU2+BPfIuzDGe2/tpSA=
+			4b9uhvG4GSFgQqx8m6bJAqDpuSBsxSG3nwjLYn6DMHg=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MIb4yfIKaVKNj3G5qibn/DLZes+GvfIfrPvRAHOmW7w=
+			XefI4WrFjl3Dcz13yOl1yrrt6M29SuPB+oiGftOGvdE=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nXvM//hoolZ611w9Zsh0oIfddU2+BPfIuzDGe2/tpSA=
+			4b9uhvG4GSFgQqx8m6bJAqDpuSBsxSG3nwjLYn6DMHg=
 			</data>
 		</dict>
 		<key>Modules/JubaExpressSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qrwf1RHcl8YnKDE5E6kOIDMcJvERI/8pLABGn2tR55o=
+			1q6gaRiYI38KasNZ2uyjSv3y44TegHxkRaNXtEtzLSw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TV07ceMIhdYXUq5St8FydSRY1eqyTHiOCZ6IZyAH61Y=
+			qcUtbukfh6Vwiz9wbquUNrrecl+ZCon5Hzf5Npzmeb8=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -850,25 +978,60 @@
 			En1w0QWJPaQ+RJxAQIXDnSC22ImYH3Kwk5DXckewd34=
 			</data>
 		</dict>
+		<key>ReceiptTransactionDetails.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rbT6devlaM6C5lBxgdD9DonMrh20VzzMppxX2zTfNnU=
+			</data>
+		</dict>
+		<key>ReciepRateView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uW5QYzAxDOXRG8zfTV70h/6gw9f1JnAaW5p/0f9agK0=
+			</data>
+		</dict>
+		<key>RecieptStatusView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vfV7+1MqtLlIbuoJECX/ANoF0vmi2SRm2CePis88rf0=
+			</data>
+		</dict>
+		<key>RecieptTransactionParticularDetails.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7pxKhX/yN25g06U9r7XIh39yIXdm4J7rD5uke+Z9fo8=
+			</data>
+		</dict>
 		<key>RemittanceDetailsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AeiRqc61n69vvvAp5smpEbtBIBU+ycwCC2TzX69Wl5w=
+			l7keU97lO1wBkW0iX+xFOHQcnItG60m7x+x9za0z5Hg=
+			</data>
+		</dict>
+		<key>SecondoryDocumentUpload.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fnut35wZrn0hlPxOXT2+zNhJ1J78xWGosfjttdGCVwA=
 			</data>
 		</dict>
 		<key>TransactionDetailsTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPW2FcGcyeAQK9hyjJO/GJ7wkLVIoZnSyt/Zoyn4Vbk=
+			RC/K9wWBLN76g2HW1hwOa44KlLDK8cFKcAOdb+DxuoY=
 			</data>
 		</dict>
 		<key>TransactionStepsDetails.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XG6//7OcksLWZV2OGf8kl5QHfYaK9wNm9W9I6SQe1fs=
+			u+VOhMQ3QYrAuRH295Ak2wGwsRhX/AJlvjMAXgv3qwY=
 			</data>
 		</dict>
 		<key>TransactionsTableViewCell.nib</key>
@@ -885,6 +1048,78 @@
 			qRlaj5KAaF/FWOfm6SNxJ2uX8ieQC6xAVPqRunH1AF4=
 			</data>
 		</dict>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k31beBxB4oCEk28rL8vCPMGlHOxdAPNaMAwywZpVGEA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>da.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mYlcWRq7vFURqycF4ea1GdiDkYgqob6txy65RLaUkns=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ByosPafiXs8eex7RCpiCEZu+I1gCWB/KT4g0uLTxawY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sF17qFz3Z48VrqrX5sKVrl1a/JjWpoGOsDE6bUP3eFY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/MF+qWm5vAHhBFNaL+lalBeIDzIVXMBo4IyB4LGpBbc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YEZRbqNPbbfo47L16N1SuwRX6A1oGlihaO6ZtyD1P6Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g2bT8MaZRQAcLdS7hcnvgjh365cLNtr3rtCjpEX1RLE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			okbYz30b4HFN79DYAp+ahQpvRHY0jP8yhYy0nLgIGSQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>jubaexpress.pfx</key>
 		<dict>
 			<key>hash2</key>
@@ -898,6 +1133,42 @@
 			<data>
 			m3ZwNFd4HFz5vV2BbBTaS9zhEF/b5vNcdekKb8P/XwE=
 			</data>
+		</dict>
+		<key>nb.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			92hqZNQOpnV0w0Btgxxqvf7tuNZXlpVs7AWU2zy/7QM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bZF5c9nWm61fY6d22jmKrIUk7ASzT1jghXeatHOKIsQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>so.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Kc34CM+q4Nrty97vNdtSqRK8Gmf4Y8pqaVqSqLNwMjw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>sv.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qER78IyyLRGvXNrAyK3gtXOA8EwWDEyxXBHMgaVrkZw=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>transferButton.gif</key>
 		<dict>

@@ -7,6 +7,20 @@
 
 import UIKit
 
+// MARK: - SDK Theme Model
+
+struct SDKTheme {
+    var primary:                  UIColor = DefaultTheme.Colors.primary
+    var secondary:                UIColor = DefaultTheme.Colors.secondory
+    var tertiary:                 UIColor = DefaultTheme.Colors.primary
+    var fieldBackground:          UIColor = DefaultTheme.Colors.filedBackgroundColor
+    var topHeading:               UIColor = DefaultTheme.Colors.TopHeadingColor
+    var buttonBackground:         UIColor = DefaultTheme.Colors.secondory
+    var buttonText:               UIColor = .white
+    var transferButtonBackground: UIColor = .black
+    var transferButtonText:       UIColor = .white
+}
+
 public struct DefaultTheme {
     
     public struct Colors{
