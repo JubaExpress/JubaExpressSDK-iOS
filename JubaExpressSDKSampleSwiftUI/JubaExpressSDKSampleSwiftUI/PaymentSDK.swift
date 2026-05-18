@@ -15,6 +15,7 @@ public class PaymentSDK {
     func getConfiguration(subscriptionKey: String,
                           partnerKey: String,
                           environment: JESDKBuildEnvironment,
+                          baseURL: String,
                           referenceId: String? = nil) -> JESDKConfiguration {
 
         let customerDocument = JESSDKCustomerDocument(

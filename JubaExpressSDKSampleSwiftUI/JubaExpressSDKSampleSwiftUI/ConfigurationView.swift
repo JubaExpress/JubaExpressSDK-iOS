@@ -2,7 +2,8 @@
 //  ConfigurationView.swift
 //  Juba Express Money Transfer
 //
-//  Step 1 of 2 — collects SubscriptionKey, PartnerKey, ReferenceID (optional), Environment
+//  Step 1 of 2 — collects SubscriptionKey, PartnerKey, ReferenceID (optional)
+//  Environment is always UAT
 //
 
 import SwiftUI
@@ -13,26 +14,26 @@ struct ConfigurationView: View {
     @State private var subscriptionKey: String = ""
     @State private var partnerKey:      String = ""
     @State private var referenceId:     String = ""
-    @State private var baseURL:         String = ""
-    @State private var selectedEnv:     Int    = 1       // default UAT
+    @State private var baseURL:         String = ""   // optional — overrides uatBaseURL if filled
     @State private var showValidation:  Bool   = false
-    @State private var showBaseURLAlert: Bool   = false
     @State private var navigateToTheme: Bool   = false
     @State private var navigateToDemo:  Bool   = false
 
-    private let environments = ["Production", "Test (UAT)"]
-
-    // ── Demo credentials — replace with your real keys ────────────────────────
+    // ── Hardcoded UAT credentials ─────────────────────────────────────────────
     private let uatBaseURL          = "YOUR_DEMO_BASE_URL"
     private let demoSubscriptionKey = "YOUR_DEMO_SUBSCRIPTION_KEY"
     private let demoPartnerKey      = "YOUR_DEMO_PARTNER_KEY"
+
+    // Resolved base URL: user input wins if provided, otherwise fall back to hardcoded
+    private var resolvedBaseURL: String {
+        baseURL.trimmed.isEmpty ? uatBaseURL : baseURL.trimmed
+    }
 
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 28) {
                     logoSection
-                    environmentSection
                     keysCard
                     nextButton
                 }
@@ -46,8 +47,8 @@ struct ConfigurationView: View {
                 SDKThemeView(
                     subscriptionKey: subscriptionKey.trimmed,
                     partnerKey:      partnerKey.trimmed,
-                    environment:     selectedEnv == 0 ? .Live : .UAT,
-                    baseURL:         selectedEnv == 0 ? baseURL.trimmed : uatBaseURL,
+                    environment:     .UAT,
+                    baseURL:         resolvedBaseURL,
                     referenceId:     referenceId.trimmed.isEmpty ? nil : referenceId.trimmed
                 )
             }
@@ -64,10 +65,6 @@ struct ConfigurationView: View {
                    isPresented: $showValidation,
                    actions: { Button("OK", role: .cancel) {} },
                    message: { Text("Please fill in both Subscription Key and Partner Key.") })
-            .alert("Base URL Required",
-                   isPresented: $showBaseURLAlert,
-                   actions: { Button("OK", role: .cancel) {} },
-                   message: { Text("Please enter the Base URL for the Production environment.") })
         }
     }
 
@@ -80,25 +77,6 @@ struct ConfigurationView: View {
             .frame(width: 110, height: 110)
             .background(Color(.systemGray6))
             .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-    }
-
-    // MARK: - Environment section
-
-    private var environmentSection: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text("Environment")
-                .font(.caption)
-                .fontWeight(.medium)
-                .foregroundColor(.secondary)
-                .padding(.leading, 4)
-
-            Picker("Environment", selection: $selectedEnv) {
-                ForEach(environments.indices, id: \.self) { i in
-                    Text(environments[i]).tag(i)
-                }
-            }
-            .pickerStyle(.segmented)
-        }
     }
 
     // MARK: - Keys card
@@ -117,13 +95,12 @@ struct ConfigurationView: View {
 
             Divider().padding(.leading, 48)
 
-            // Base URL — only visible when Production is selected
-            if selectedEnv == 0 {
-                clearableField(icon: "globe",
-                               placeholder: "Base URL (Production)",
-                               text: $baseURL)
-                Divider().padding(.leading, 48)
-            }
+            clearableField(icon: "globe",
+                           placeholder: "Base URL",
+                           text: $baseURL,
+                           isOptional: true)
+
+            Divider().padding(.leading, 48)
 
             clearableField(icon: "number.circle",
                            placeholder: "Transaction Reference ID",
@@ -150,6 +127,7 @@ struct ConfigurationView: View {
             TextField(placeholder, text: text)
                 .autocorrectionDisabled()
                 .textInputAutocapitalization(.never)
+                .keyboardType(icon == "globe" ? .URL : .default)
                 .foregroundColor(isOptional ? Color(.secondaryLabel) : .primary)
 
             if isOptional && text.wrappedValue.isEmpty {
@@ -180,7 +158,6 @@ struct ConfigurationView: View {
 
     private var nextButton: some View {
         VStack(spacing: 0) {
-            // Next: Customize Theme
             Button {
                 guard !subscriptionKey.trimmed.isEmpty,
                       !partnerKey.trimmed.isEmpty else {
@@ -217,7 +194,7 @@ struct ConfigurationView: View {
             }
             .padding(.vertical, 20)
 
-            // Explore Demo Application
+            // Explore Demo
             Button {
                 navigateToDemo = true
             } label: {
@@ -237,44 +214,6 @@ struct ConfigurationView: View {
                 )
             }
         }
-    }
-}
-
-struct CustomSegmentedControl: View {
-
-    let items: [String]
-    @Binding var selectedIndex: Int
-
-    @Namespace private var animation
-
-    var body: some View {
-        HStack(spacing: 4) {
-            ForEach(items.indices, id: \.self) { i in
-                Button {
-                    withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
-                        selectedIndex = i
-                    }
-                } label: {
-                    Text(items[i])
-                        .font(.system(size: 15, weight: selectedIndex == i ? .semibold : .regular))
-                        .foregroundColor(selectedIndex == i ? .primary : .secondary)
-                        .frame(maxWidth: .infinity)
-                        .frame(height: 44)
-                        .background {
-                            if selectedIndex == i {
-                                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                                    .fill(Color(.systemBackground))
-                                    .shadow(color: .black.opacity(0.12), radius: 4, x: 0, y: 2)
-                                    .matchedGeometryEffect(id: "segment", in: animation)
-                            }
-                        }
-                }
-                .buttonStyle(.plain)
-            }
-        }
-        .padding(4)
-        .background(Color(.systemGray5))
-        .clipShape(RoundedRectangle(cornerRadius: 13, style: .continuous))
     }
 }
 

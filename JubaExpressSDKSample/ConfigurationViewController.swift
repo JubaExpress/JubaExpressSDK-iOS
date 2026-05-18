@@ -2,7 +2,8 @@
 //  ConfigurationViewController.swift
 //  Juba Express Money Transfer
 //
-//  Step 1 of 2 — collects SubscriptionKey, PartnerKey, Environment, ReferenceID (optional)
+//  Step 1 of 2 — collects SubscriptionKey, PartnerKey, ReferenceID (optional)
+//  Environment is always UAT
 //
 
 import UIKit
@@ -77,40 +78,8 @@ final class ConfigurationViewController: UIViewController {
         return tf
     }()
 
-    // Base URL — only shown when Production is selected
-    private let baseURLTextField: UITextField = {
-        let tf = UITextField()
-        tf.placeholder            = "Base URL (Production)"
-        tf.borderStyle            = .none
-        tf.autocorrectionType     = .no
-        tf.autocapitalizationType = .none
-        tf.keyboardType           = .URL
-        tf.returnKeyType          = .next
-        tf.clearButtonMode        = .whileEditing
-        tf.translatesAutoresizingMaskIntoConstraints = false
-        return tf
-    }()
-
-    private let separator1    = ConfigurationViewController.makeSeparator()
-    private let separator2    = ConfigurationViewController.makeSeparator()
-    private let separator3    = ConfigurationViewController.makeSeparator() // above baseURL
-    private let separator4    = ConfigurationViewController.makeSeparator() // above referenceId
-
-    private let environmentLabel: UILabel = {
-        let l = UILabel()
-        l.text      = "Environment"
-        l.font      = .systemFont(ofSize: 13, weight: .medium)
-        l.textColor = .secondaryLabel
-        l.translatesAutoresizingMaskIntoConstraints = false
-        return l
-    }()
-
-    private let environmentSegment: UISegmentedControl = {
-        let sc = UISegmentedControl(items: ["Production", "Test (UAT)"])
-        sc.selectedSegmentIndex = 1
-        sc.translatesAutoresizingMaskIntoConstraints = false
-        return sc
-    }()
+    private let separator1 = ConfigurationViewController.makeSeparator()
+    private let separator2 = ConfigurationViewController.makeSeparator()
 
     private let nextButton: UIButton = {
         var cfg                 = UIButton.Configuration.filled()
@@ -180,20 +149,16 @@ final class ConfigurationViewController: UIViewController {
     }()
 
     // Row containers
-    private let subKeyRow    = UIView.fieldRow()
+    private let subKeyRow     = UIView.fieldRow()
     private let partnerKeyRow = UIView.fieldRow()
-    private let baseURLRow   = UIView.fieldRow()   // hidden for UAT
-    private let referenceRow = UIView.fieldRow()
+    private let referenceRow  = UIView.fieldRow()
 
     private lazy var cardStack: UIStackView = {
-        // Order: subKey | sep1 | partnerKey | sep2 | baseURL(prod only) | sep3 | referenceId | sep4
         let sv = UIStackView(arrangedSubviews: [
             subKeyRow,
             separator1,
             partnerKeyRow,
             separator2,
-            baseURLRow,    // hidden/shown based on segment
-            separator3,
             referenceRow
         ])
         sv.axis    = .vertical
@@ -210,7 +175,6 @@ final class ConfigurationViewController: UIViewController {
         view.backgroundColor = UIColor.systemGroupedBackground
         buildLayout()
         wireActions()
-        updateBaseURLVisibility(animated: false)   // set initial state (UAT = hidden)
     }
 
     // ─── Layout ───────────────────────────────────────────────────────────────
@@ -218,11 +182,10 @@ final class ConfigurationViewController: UIViewController {
     private func buildLayout() {
         embed(subscriptionKeyTextField, in: subKeyRow,     iconName: "key.fill")
         embed(partnerKeyTextField,      in: partnerKeyRow, iconName: "person.badge.key.fill")
-        embed(baseURLTextField,         in: baseURLRow,    iconName: "globe")
         embed(referenceIdTextField,     in: referenceRow,  iconName: "number.circle.fill",
               isOptional: true)
 
-        [logoImageView, cardView, environmentLabel, environmentSegment,
+        [logoImageView, cardView,
          nextButton, orDividerView, exploreDemoButton].forEach { view.addSubview($0) }
         cardView.addSubview(cardStack)
 
@@ -234,17 +197,8 @@ final class ConfigurationViewController: UIViewController {
             logoImageView.widthAnchor.constraint(equalToConstant: 110),
             logoImageView.heightAnchor.constraint(equalToConstant: 110),
 
-            // Environment
-            environmentLabel.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 24),
-            environmentLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 24),
-
-            environmentSegment.topAnchor.constraint(equalTo: environmentLabel.bottomAnchor, constant: 8),
-            environmentSegment.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            environmentSegment.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            environmentSegment.heightAnchor.constraint(equalToConstant: 44),
-
-            // Card
-            cardView.topAnchor.constraint(equalTo: environmentSegment.bottomAnchor, constant: 24),
+            // Card — directly below logo
+            cardView.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 32),
             cardView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             cardView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
 
@@ -255,11 +209,9 @@ final class ConfigurationViewController: UIViewController {
 
             subKeyRow.heightAnchor.constraint(equalToConstant: 56),
             partnerKeyRow.heightAnchor.constraint(equalToConstant: 56),
-            baseURLRow.heightAnchor.constraint(equalToConstant: 56),
             referenceRow.heightAnchor.constraint(equalToConstant: 56),
             separator1.heightAnchor.constraint(equalToConstant: 0.5),
             separator2.heightAnchor.constraint(equalToConstant: 0.5),
-            separator3.heightAnchor.constraint(equalToConstant: 0.5),
 
             // Next
             nextButton.topAnchor.constraint(equalTo: cardView.bottomAnchor, constant: 32),
@@ -284,37 +236,12 @@ final class ConfigurationViewController: UIViewController {
     private func wireActions() {
         nextButton.addTarget(self, action: #selector(nextTapped), for: .touchUpInside)
         exploreDemoButton.addTarget(self, action: #selector(exploreDemoTapped), for: .touchUpInside)
-        environmentSegment.addTarget(self, action: #selector(environmentChanged), for: .valueChanged)
         subscriptionKeyTextField.delegate = self
         partnerKeyTextField.delegate      = self
-        baseURLTextField.delegate         = self
         referenceIdTextField.delegate     = self
         view.addGestureRecognizer(
             UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         )
-    }
-
-    // ─── Show / hide Base URL row ─────────────────────────────────────────────
-
-    @objc private func environmentChanged() {
-        updateBaseURLVisibility(animated: true)
-    }
-
-    private func updateBaseURLVisibility(animated: Bool) {
-        let isProduction = environmentSegment.selectedSegmentIndex == 0
-        let toggle = {
-            self.baseURLRow.isHidden  = !isProduction
-            self.separator2.isHidden  = !isProduction
-            self.separator3.isHidden  = !isProduction
-        }
-        if animated {
-            UIView.animate(withDuration: 0.25, animations: toggle)
-        } else {
-            toggle()
-        }
-        // Update return key chain
-        partnerKeyTextField.returnKeyType = isProduction ? .next : .next
-        baseURLTextField.returnKeyType    = .next
     }
 
     // ─── Actions ──────────────────────────────────────────────────────────────
@@ -328,49 +255,28 @@ final class ConfigurationViewController: UIViewController {
             return
         }
 
-        let isProduction = environmentSegment.selectedSegmentIndex == 0
-        let env: JESDKBuildEnvironment = isProduction ? .Live : .UAT
-
-        // Base URL: user-provided for Production, hardcoded for UAT
-        let baseURL: String
-        if isProduction {
-            guard let url = baseURLTextField.text, !url.trimmed.isEmpty else {
-                showAlert("Please enter the Base URL for Production environment.")
-                return
-            }
-            baseURL = url.trimmed
-        } else {
-            baseURL = uatBaseURL
-        }
-
         let referenceId: String? = referenceIdTextField.text?.trimmed.isEmpty == false
             ? referenceIdTextField.text?.trimmed : nil
 
         pushThemeVC(subscriptionKey: sub.trimmed,
                     partnerKey:      prt.trimmed,
-                    environment:     env,
-                    baseURL:         baseURL,
                     referenceId:     referenceId)
     }
 
     @objc private func exploreDemoTapped() {
         pushThemeVC(subscriptionKey: demoSubscriptionKey,
                     partnerKey:      demoPartnerKey,
-                    environment:     .UAT,
-                    baseURL:         uatBaseURL,
                     referenceId:     nil)
     }
 
     private func pushThemeVC(subscriptionKey: String,
                              partnerKey: String,
-                             environment: JESDKBuildEnvironment,
-                             baseURL: String,
                              referenceId: String?) {
         let themeVC = SDKThemeViewController(
             subscriptionKey: subscriptionKey,
             partnerKey:      partnerKey,
-            environment:     environment,
-            baseURL:         baseURL,
+            environment:     .UAT,          // always UAT
+            baseURL:         uatBaseURL,    // always UAT base URL
             referenceId:     referenceId
         )
         navigationController?.pushViewController(themeVC, animated: true)
@@ -432,13 +338,9 @@ final class ConfigurationViewController: UIViewController {
 // MARK: - UITextFieldDelegate
 extension ConfigurationViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        let isProduction = environmentSegment.selectedSegmentIndex == 0
         switch textField {
         case subscriptionKeyTextField: partnerKeyTextField.becomeFirstResponder()
-        case partnerKeyTextField:
-            if isProduction { baseURLTextField.becomeFirstResponder() }
-            else            { referenceIdTextField.becomeFirstResponder() }
-        case baseURLTextField:         referenceIdTextField.becomeFirstResponder()
+        case partnerKeyTextField:      referenceIdTextField.becomeFirstResponder()
         default:                       textField.resignFirstResponder()
         }
         return true
